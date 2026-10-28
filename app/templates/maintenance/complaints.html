@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Assigned complaints</h1>
+<form class="row g-2 mb-3">
+  <div class="col">
+    <select class="form-select" name="status">
+      <option value="">All statuses</option>
+      {% for item in statuses %}<option value="{{ item }}" {% if request.args.get('status') == item %}selected{% endif %}>{{ item }}</option>{% endfor %}
+    </select>
+  </div>
+  <div class="col">
+    <select class="form-select" name="category">
+      <option value="">All categories</option>
+      {% for item in categories %}<option value="{{ item }}" {% if request.args.get('category') == item %}selected{% endif %}>{{ item }}</option>{% endfor %}
+    </select>
+  </div>
+  <div class="col">
+    <select class="form-select" name="priority">
+      <option value="">All priorities</option>
+      {% for item in priorities %}<option value="{{ item }}" {% if request.args.get('priority') == item %}selected{% endif %}>{{ item }}</option>{% endfor %}
+    </select>
+  </div>
+  <div class="col-auto"><button class="btn btn-primary">Filter</button></div>
+</form>
+{% include "_complaint_table.html" %}
+{% endblock %}

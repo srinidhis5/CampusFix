@@ -1,0 +1,368 @@
+{
+  "random_seed": 42,
+  "cv_seed": 42,
+  "cv_folds": 3,
+  "started_utc": "2026-10-15T14:07:23.038478+00:00",
+  "package_versions": {
+    "scikit-learn": "1.8.0",
+    "numpy": "2.4.4",
+    "scipy": "1.18.1",
+    "pandas": "3.0.1",
+    "matplotlib": "3.10.8",
+    "joblib": "1.5.3"
+  },
+  "python_version": "3.14.2",
+  "dataset_sha256": "a4684e61cdf16d9608a2a7affbb97ec4fc29bea749732265e1ace61aac28a791",
+  "selection_method": "Independently choose the highest mean training-side 3-fold grouped CV macro F1 among the three trained classifiers. Baseline is reported, excluded from selection. Ties use declared model order. No tuning or test-based selection.",
+  "cv_method": "Same training-side class-complete StratifiedGroupKFold partitions for both targets and every model; seed search 42..141 uses class coverage only.",
+  "probability_calibration": "None: offline SVM uses decision/predict only; no probability output required.",
+  "preprocessing": "Existing clean_text: lowercase, replace non-alphanumeric with spaces, collapse whitespace. Negation words retained. TF-IDF stop_words=None, fitted only inside each training fold and then on full training partition.",
+  "website_metrics_schema_observed": [
+    "model_name",
+    "targets",
+    "limitation"
+  ],
+  "protected_file_hashes_before": {
+    "models\\metrics.json": "41ad2bc797ac8e1c472baeed457be902f105e22835d04581732acb7b555d5faf",
+    "src\\predict.py": "9ab77037c5f42d471a90fe478f256e68692feeaff19fe6161470910741d0aebe",
+    "src\\preprocess.py": "aaaa4b7313407c7b64756709de85049d453ca085a37bbbe90b3e29afd88cfeea"
+  },
+  "targets": {
+    "category": {
+      "selected_model": "Linear SVM",
+      "cv_results": {
+        "Logistic Regression": {
+          "fold_macro_f1": [
+            0.210969208353966,
+            0.34648059223689476,
+            0.1563729244815905
+          ],
+          "mean_macro_f1": 0.23794090835748374,
+          "std_macro_f1": 0.07992010921601692
+        },
+        "Multinomial Naive Bayes": {
+          "fold_macro_f1": [
+            0.19248682341310414,
+            0.32246229747175187,
+            0.21703099013597704
+          ],
+          "mean_macro_f1": 0.24399337034027768,
+          "std_macro_f1": 0.05638341023092697
+        },
+        "Linear SVM": {
+          "fold_macro_f1": [
+            0.2893665983139667,
+            0.21563002059133599,
+            0.2660844654668638
+          ],
+          "mean_macro_f1": 0.2570270281240555,
+          "std_macro_f1": 0.030776599357039264
+        },
+        "Majority baseline": {
+          "fold_macro_f1": [
+            0.03498542274052478,
+            0.0349025974025974,
+            0.032690421706440015
+          ],
+          "mean_macro_f1": 0.034192813949854066,
+          "std_macro_f1": 0.0010628897242748892
+        }
+      },
+      "parameters": {
+        "Logistic Regression": {
+          "memory": "None",
+          "steps": "[('tfidf', TfidfVectorizer(lowercase=False, ngram_range=(1, 2), sublinear_tf=True)), ('classifier', LogisticRegression(max_iter=2000, random_state=42))]",
+          "transform_input": "None",
+          "verbose": "False",
+          "tfidf": "TfidfVectorizer(lowercase=False, ngram_range=(1, 2), sublinear_tf=True)",
+          "classifier": "LogisticRegression(max_iter=2000, random_state=42)",
+          "tfidf__analyzer": "'word'",
+          "tfidf__binary": "False",
+          "tfidf__decode_error": "'strict'",
+          "tfidf__dtype": "<class 'numpy.float64'>",
+          "tfidf__encoding": "'utf-8'",
+          "tfidf__input": "'content'",
+          "tfidf__lowercase": "False",
+          "tfidf__max_df": "1.0",
+          "tfidf__max_features": "None",
+          "tfidf__min_df": "1",
+          "tfidf__ngram_range": "(1, 2)",
+          "tfidf__norm": "'l2'",
+          "tfidf__preprocessor": "None",
+          "tfidf__smooth_idf": "True",
+          "tfidf__stop_words": "None",
+          "tfidf__strip_accents": "None",
+          "tfidf__sublinear_tf": "True",
+          "tfidf__token_pattern": "'(?u)\\\\b\\\\w\\\\w+\\\\b'",
+          "tfidf__tokenizer": "None",
+          "tfidf__use_idf": "True",
+          "tfidf__vocabulary": "None",
+          "classifier__C": "1.0",
+          "classifier__class_weight": "None",
+          "classifier__dual": "False",
+          "classifier__fit_intercept": "True",
+          "classifier__intercept_scaling": "1",
+          "classifier__l1_ratio": "0.0",
+          "classifier__max_iter": "2000",
+          "classifier__n_jobs": "None",
+          "classifier__penalty": "'deprecated'",
+          "classifier__random_state": "42",
+          "classifier__solver": "'lbfgs'",
+          "classifier__tol": "0.0001",
+          "classifier__verbose": "0",
+          "classifier__warm_start": "False"
+        },
+        "Multinomial Naive Bayes": {
+          "memory": "None",
+          "steps": "[('tfidf', TfidfVectorizer(lowercase=False, ngram_range=(1, 2), sublinear_tf=True)), ('classifier', MultinomialNB())]",
+          "transform_input": "None",
+          "verbose": "False",
+          "tfidf": "TfidfVectorizer(lowercase=False, ngram_range=(1, 2), sublinear_tf=True)",
+          "classifier": "MultinomialNB()",
+          "tfidf__analyzer": "'word'",
+          "tfidf__binary": "False",
+          "tfidf__decode_error": "'strict'",
+          "tfidf__dtype": "<class 'numpy.float64'>",
+          "tfidf__encoding": "'utf-8'",
+          "tfidf__input": "'content'",
+          "tfidf__lowercase": "False",
+          "tfidf__max_df": "1.0",
+          "tfidf__max_features": "None",
+          "tfidf__min_df": "1",
+          "tfidf__ngram_range": "(1, 2)",
+          "tfidf__norm": "'l2'",
+          "tfidf__preprocessor": "None",
+          "tfidf__smooth_idf": "True",
+          "tfidf__stop_words": "None",
+          "tfidf__strip_accents": "None",
+          "tfidf__sublinear_tf": "True",
+          "tfidf__token_pattern": "'(?u)\\\\b\\\\w\\\\w+\\\\b'",
+          "tfidf__tokenizer": "None",
+          "tfidf__use_idf": "True",
+          "tfidf__vocabulary": "None",
+          "classifier__alpha": "1.0",
+          "classifier__class_prior": "None",
+          "classifier__fit_prior": "True",
+          "classifier__force_alpha": "True"
+        },
+        "Linear SVM": {
+          "memory": "None",
+          "steps": "[('tfidf', TfidfVectorizer(lowercase=False, ngram_range=(1, 2), sublinear_tf=True)), ('classifier', LinearSVC(max_iter=5000, random_state=42))]",
+          "transform_input": "None",
+          "verbose": "False",
+          "tfidf": "TfidfVectorizer(lowercase=False, ngram_range=(1, 2), sublinear_tf=True)",
+          "classifier": "LinearSVC(max_iter=5000, random_state=42)",
+          "tfidf__analyzer": "'word'",
+          "tfidf__binary": "False",
+          "tfidf__decode_error": "'strict'",
+          "tfidf__dtype": "<class 'numpy.float64'>",
+          "tfidf__encoding": "'utf-8'",
+          "tfidf__input": "'content'",
+          "tfidf__lowercase": "False",
+          "tfidf__max_df": "1.0",
+          "tfidf__max_features": "None",
+          "tfidf__min_df": "1",
+          "tfidf__ngram_range": "(1, 2)",
+          "tfidf__norm": "'l2'",
+          "tfidf__preprocessor": "None",
+          "tfidf__smooth_idf": "True",
+          "tfidf__stop_words": "None",
+          "tfidf__strip_accents": "None",
+          "tfidf__sublinear_tf": "True",
+          "tfidf__token_pattern": "'(?u)\\\\b\\\\w\\\\w+\\\\b'",
+          "tfidf__tokenizer": "None",
+          "tfidf__use_idf": "True",
+          "tfidf__vocabulary": "None",
+          "classifier__C": "1.0",
+          "classifier__class_weight": "None",
+          "classifier__dual": "'auto'",
+          "classifier__fit_intercept": "True",
+          "classifier__intercept_scaling": "1",
+          "classifier__loss": "'squared_hinge'",
+          "classifier__max_iter": "5000",
+          "classifier__multi_class": "'ovr'",
+          "classifier__penalty": "'l2'",
+          "classifier__random_state": "42",
+          "classifier__tol": "0.0001",
+          "classifier__verbose": "0"
+        },
+        "Majority baseline": {
+          "constant": "None",
+          "random_state": "None",
+          "strategy": "'most_frequent'"
+        }
+      }
+    },
+    "priority": {
+      "selected_model": "Linear SVM",
+      "cv_results": {
+        "Logistic Regression": {
+          "fold_macro_f1": [
+            0.2147570089599075,
+            0.2137594864837207,
+            0.22737095832360332
+          ],
+          "mean_macro_f1": 0.21862915125574386,
+          "std_macro_f1": 0.006194791138872662
+        },
+        "Multinomial Naive Bayes": {
+          "fold_macro_f1": [
+            0.22221044300233905,
+            0.21859790825308067,
+            0.2153573303499847
+          ],
+          "mean_macro_f1": 0.21872189386846816,
+          "std_macro_f1": 0.0027991448195335313
+        },
+        "Linear SVM": {
+          "fold_macro_f1": [
+            0.2618330264881989,
+            0.2688851831575712,
+            0.2652032412520003
+          ],
+          "mean_macro_f1": 0.2653071502992568,
+          "std_macro_f1": 0.0028799683146311884
+        },
+        "Majority baseline": {
+          "fold_macro_f1": [
+            0.13636363636363635,
+            0.14482758620689656,
+            0.14166666666666666
+          ],
+          "mean_macro_f1": 0.1409526297457332,
+          "std_macro_f1": 0.003492086127292992
+        }
+      },
+      "parameters": {
+        "Logistic Regression": {
+          "memory": "None",
+          "steps": "[('tfidf', TfidfVectorizer(lowercase=False, ngram_range=(1, 2), sublinear_tf=True)), ('classifier', LogisticRegression(max_iter=2000, random_state=42))]",
+          "transform_input": "None",
+          "verbose": "False",
+          "tfidf": "TfidfVectorizer(lowercase=False, ngram_range=(1, 2), sublinear_tf=True)",
+          "classifier": "LogisticRegression(max_iter=2000, random_state=42)",
+          "tfidf__analyzer": "'word'",
+          "tfidf__binary": "False",
+          "tfidf__decode_error": "'strict'",
+          "tfidf__dtype": "<class 'numpy.float64'>",
+          "tfidf__encoding": "'utf-8'",
+          "tfidf__input": "'content'",
+          "tfidf__lowercase": "False",
+          "tfidf__max_df": "1.0",
+          "tfidf__max_features": "None",
+          "tfidf__min_df": "1",
+          "tfidf__ngram_range": "(1, 2)",
+          "tfidf__norm": "'l2'",
+          "tfidf__preprocessor": "None",
+          "tfidf__smooth_idf": "True",
+          "tfidf__stop_words": "None",
+          "tfidf__strip_accents": "None",
+          "tfidf__sublinear_tf": "True",
+          "tfidf__token_pattern": "'(?u)\\\\b\\\\w\\\\w+\\\\b'",
+          "tfidf__tokenizer": "None",
+          "tfidf__use_idf": "True",
+          "tfidf__vocabulary": "None",
+          "classifier__C": "1.0",
+          "classifier__class_weight": "None",
+          "classifier__dual": "False",
+          "classifier__fit_intercept": "True",
+          "classifier__intercept_scaling": "1",
+          "classifier__l1_ratio": "0.0",
+          "classifier__max_iter": "2000",
+          "classifier__n_jobs": "None",
+          "classifier__penalty": "'deprecated'",
+          "classifier__random_state": "42",
+          "classifier__solver": "'lbfgs'",
+          "classifier__tol": "0.0001",
+          "classifier__verbose": "0",
+          "classifier__warm_start": "False"
+        },
+        "Multinomial Naive Bayes": {
+          "memory": "None",
+          "steps": "[('tfidf', TfidfVectorizer(lowercase=False, ngram_range=(1, 2), sublinear_tf=True)), ('classifier', MultinomialNB())]",
+          "transform_input": "None",
+          "verbose": "False",
+          "tfidf": "TfidfVectorizer(lowercase=False, ngram_range=(1, 2), sublinear_tf=True)",
+          "classifier": "MultinomialNB()",
+          "tfidf__analyzer": "'word'",
+          "tfidf__binary": "False",
+          "tfidf__decode_error": "'strict'",
+          "tfidf__dtype": "<class 'numpy.float64'>",
+          "tfidf__encoding": "'utf-8'",
+          "tfidf__input": "'content'",
+          "tfidf__lowercase": "False",
+          "tfidf__max_df": "1.0",
+          "tfidf__max_features": "None",
+          "tfidf__min_df": "1",
+          "tfidf__ngram_range": "(1, 2)",
+          "tfidf__norm": "'l2'",
+          "tfidf__preprocessor": "None",
+          "tfidf__smooth_idf": "True",
+          "tfidf__stop_words": "None",
+          "tfidf__strip_accents": "None",
+          "tfidf__sublinear_tf": "True",
+          "tfidf__token_pattern": "'(?u)\\\\b\\\\w\\\\w+\\\\b'",
+          "tfidf__tokenizer": "None",
+          "tfidf__use_idf": "True",
+          "tfidf__vocabulary": "None",
+          "classifier__alpha": "1.0",
+          "classifier__class_prior": "None",
+          "classifier__fit_prior": "True",
+          "classifier__force_alpha": "True"
+        },
+        "Linear SVM": {
+          "memory": "None",
+          "steps": "[('tfidf', TfidfVectorizer(lowercase=False, ngram_range=(1, 2), sublinear_tf=True)), ('classifier', LinearSVC(max_iter=5000, random_state=42))]",
+          "transform_input": "None",
+          "verbose": "False",
+          "tfidf": "TfidfVectorizer(lowercase=False, ngram_range=(1, 2), sublinear_tf=True)",
+          "classifier": "LinearSVC(max_iter=5000, random_state=42)",
+          "tfidf__analyzer": "'word'",
+          "tfidf__binary": "False",
+          "tfidf__decode_error": "'strict'",
+          "tfidf__dtype": "<class 'numpy.float64'>",
+          "tfidf__encoding": "'utf-8'",
+          "tfidf__input": "'content'",
+          "tfidf__lowercase": "False",
+          "tfidf__max_df": "1.0",
+          "tfidf__max_features": "None",
+          "tfidf__min_df": "1",
+          "tfidf__ngram_range": "(1, 2)",
+          "tfidf__norm": "'l2'",
+          "tfidf__preprocessor": "None",
+          "tfidf__smooth_idf": "True",
+          "tfidf__stop_words": "None",
+          "tfidf__strip_accents": "None",
+          "tfidf__sublinear_tf": "True",
+          "tfidf__token_pattern": "'(?u)\\\\b\\\\w\\\\w+\\\\b'",
+          "tfidf__tokenizer": "None",
+          "tfidf__use_idf": "True",
+          "tfidf__vocabulary": "None",
+          "classifier__C": "1.0",
+          "classifier__class_weight": "None",
+          "classifier__dual": "'auto'",
+          "classifier__fit_intercept": "True",
+          "classifier__intercept_scaling": "1",
+          "classifier__loss": "'squared_hinge'",
+          "classifier__max_iter": "5000",
+          "classifier__multi_class": "'ovr'",
+          "classifier__penalty": "'l2'",
+          "classifier__random_state": "42",
+          "classifier__tol": "0.0001",
+          "classifier__verbose": "0"
+        },
+        "Majority baseline": {
+          "constant": "None",
+          "random_state": "None",
+          "strategy": "'most_frequent'"
+        }
+      }
+    }
+  },
+  "test_predictions_sha256": "16a2a685e354bc411625e9f6941af24e9b3c8c47374910751e46e24b1a278a35",
+  "protected_file_hashes_after": {
+    "models\\metrics.json": "41ad2bc797ac8e1c472baeed457be902f105e22835d04581732acb7b555d5faf",
+    "src\\predict.py": "9ab77037c5f42d471a90fe478f256e68692feeaff19fe6161470910741d0aebe",
+    "src\\preprocess.py": "aaaa4b7313407c7b64756709de85049d453ca085a37bbbe90b3e29afd88cfeea"
+  }
+}

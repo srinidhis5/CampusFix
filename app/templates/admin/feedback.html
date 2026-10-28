@@ -1,0 +1,5 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Feedback</h1>
+{% for f in feedback %}<div class="card mb-2"><div class="card-body"><strong>{{ f.rating }}/5</strong> for {{ f.complaint.reference_number }} by {{ f.reporter.full_name }}<p>{{ f.comment }}</p></div></div>{% else %}<p class="empty">No feedback.</p>{% endfor %}
+{% endblock %}

@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>ML insights</h1>
+<div class="row g-3 mb-4">
+  <div class="col-md-4"><div class="card card-body"><span class="text-muted">Model</span><strong>{{ metrics.get('model_name', 'Not trained') }}</strong></div></div>
+  <div class="col-md-4"><div class="card card-body"><span class="text-muted">Predictions logged</span><strong>{{ prediction_total }}</strong></div></div>
+  <div class="col-md-4"><div class="card card-body"><span class="text-muted">Correction rate</span><strong>{{ correction_rate }}%</strong></div></div>
+</div>
+
+<h2>Metrics by target</h2>
+{% if metrics.get('targets') %}
+<div class="table-responsive">
+  <table class="table bg-white align-middle">
+    <thead><tr><th>Target</th><th>Accuracy</th><th>Macro precision</th><th>Macro recall</th><th>Macro F1</th><th>Emergency recall</th></tr></thead>
+    <tbody>
+    {% for target, values in metrics.get('targets', {}).items() %}
+      <tr>
+        <td>{{ target|title }}</td>
+        <td>{{ values.get('accuracy', 'Pending') }}</td>
+        <td>{{ values.get('macro_precision', 'Pending') }}</td>
+        <td>{{ values.get('macro_recall', 'Pending') }}</td>
+        <td>{{ values.get('macro_f1', 'Pending') }}</td>
+        <td>{{ values.get('emergency_recall', '-') }}</td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% else %}<p class="empty">No metrics JSON found.</p>{% endif %}
+
+<h2>Confusion matrices</h2>
+{% if matrices %}
+<div class="matrix-grid">
+  {% for filename in matrices %}
+    <figure>
+      <img src="{{ url_for('admin.confusion_matrix', filename=filename) }}" alt="{{ filename }}">
+      <figcaption>{{ filename }}</figcaption>
+    </figure>
+  {% endfor %}
+</div>
+{% else %}<p class="empty">No confusion matrix images found in reports/.</p>{% endif %}
+
+<div class="d-flex flex-wrap align-items-center justify-content-between gap-2 mt-4">
+  <h2 class="mb-0">Review queue</h2>
+  <a class="btn btn-outline-primary" href="{{ url_for('admin.review_queue_csv') }}">Export corrected labels</a>
+</div>
+{% if review_queue %}
+<div class="table-responsive mt-3">
+  <table class="table table-sm bg-white align-middle">
+    <thead><tr><th>Complaint</th><th>Predicted category</th><th>Final category</th><th>Predicted priority</th><th>Final priority</th><th>Logged</th></tr></thead>
+    <tbody>
+    {% for log in review_queue %}
+      <tr>
+        <td>{{ log.complaint.reference_number if log.complaint else log.complaint_id }}</td>
+        <td>{{ log.predicted_category or 'Manual' }}</td>
+        <td>{{ log.final_category }}</td>
+        <td>{{ log.predicted_priority or 'Manual' }}</td>
+        <td>{{ log.final_priority }}</td>
+        <td>{{ log.timestamp.strftime('%Y-%m-%d %H:%M') }}</td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% else %}<p class="empty mt-3">No corrected labels yet.</p>{% endif %}
+{% endblock %}

@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>{{ title or 'All complaints' }}</h1>
+<form class="row g-2 mb-3">
+  <div class="col-md"><input class="form-control" name="q" placeholder="Search ID, title, reporter or location" value="{{ request.args.get('q','') }}"></div>
+  <div class="col-md">
+    <select class="form-select" name="status">
+      <option value="">All statuses</option>
+      {% for item in statuses %}<option value="{{ item }}" {% if request.args.get('status') == item %}selected{% endif %}>{{ item }}</option>{% endfor %}
+    </select>
+  </div>
+  <div class="col-md">
+    <select class="form-select" name="category">
+      <option value="">All categories</option>
+      {% for item in categories %}<option value="{{ item }}" {% if request.args.get('category') == item %}selected{% endif %}>{{ item }}</option>{% endfor %}
+    </select>
+  </div>
+  <div class="col-md">
+    <select class="form-select" name="priority">
+      <option value="">All priorities</option>
+      {% for item in priorities %}<option value="{{ item }}" {% if request.args.get('priority') == item %}selected{% endif %}>{{ item }}</option>{% endfor %}
+    </select>
+  </div>
+  <div class="col-md"><input class="form-control" name="building" placeholder="Building" value="{{ request.args.get('building','') }}"></div>
+  <div class="col-md-auto"><button class="btn btn-primary">Filter</button></div>
+  {% if request.query_string %}
+  <div class="col-md-auto"><a class="btn btn-outline-primary" href="{{ request.path }}">Clear</a></div>
+  {% endif %}
+</form>
+{% if title == 'Unassigned complaints' and request.query_string %}
+<p class="text-muted">Showing filtered unassigned complaints only.</p>
+{% endif %}
+{% include "_complaint_table.html" %}
+{% endblock %}

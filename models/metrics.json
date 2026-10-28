@@ -1,0 +1,19 @@
+{
+  "model_name": "Keyword fallback until trained sklearn models are saved",
+  "targets": {
+    "category": {
+      "accuracy": null,
+      "macro_precision": null,
+      "macro_recall": null,
+      "macro_f1": null
+    },
+    "priority": {
+      "accuracy": null,
+      "macro_precision": null,
+      "macro_recall": null,
+      "macro_f1": null,
+      "emergency_recall": null
+    }
+  },
+  "limitation": "No verified training dataset has been added yet. Scores should be generated from an unseen test split before deployment."
+}

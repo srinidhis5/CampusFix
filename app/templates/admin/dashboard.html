@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Administrator dashboard</h1>
+<div class="row g-3 mb-4">
+  {% for label, value in [('Total', total), ('Submitted', counts['Submitted']), ('Unassigned', unassigned), ('Assigned', counts['Assigned']), ('In progress', counts['In Progress']), ('Resolved', counts['Resolved']), ('Closed', counts['Closed']), ('Reopened', counts['Reopened']), ('Overdue', overdue|length), ('Emergency', emergency), ('Avg hours', avg_hours), ('Avg rating', avg_rating)] %}
+  <div class="col-md-2 col-6"><div class="card card-body"><span class="text-muted">{{ label }}</span><strong class="fs-4">{{ value }}</strong></div></div>
+  {% endfor %}
+</div>
+<div class="row g-3">
+  <div class="col-md-4"><canvas id="categoryChart" data-labels='{{ by_category.keys()|list|tojson }}' data-values='{{ by_category.values()|list|tojson }}'></canvas></div>
+  <div class="col-md-4"><canvas id="statusChart" data-labels='{{ by_status.keys()|list|tojson }}' data-values='{{ by_status.values()|list|tojson }}'></canvas></div>
+  <div class="col-md-4"><canvas id="priorityChart" data-labels='{{ by_priority.keys()|list|tojson }}' data-values='{{ by_priority.values()|list|tojson }}'></canvas></div>
+</div>
+<h2 class="mt-4">Complaint coverage</h2>
+<div class="coverage-grid">
+  {% for category, count in category_cards %}
+  <a class="coverage-card" href="{{ url_for('admin.category_detail', category=category) }}">
+    <span>{{ category }}</span>
+    <strong>{{ count }}</strong>
+    <small>View registered complaints</small>
+  </a>
+  {% endfor %}
+</div>
+<h2 class="mt-4">Emergency complaints</h2>
+{% if emergency_complaints %}
+<div class="table-responsive emergency-panel">
+  <table class="table align-middle bg-white">
+    <thead><tr><th>Ref</th><th>Title</th><th>Status</th><th>Location</th><th></th></tr></thead>
+    <tbody>
+    {% for c in emergency_complaints %}
+      <tr><td>{{ c.reference_number }}</td><td>{{ c.title }}</td><td>{{ c.status }}</td><td>{{ c.building }} / {{ c.room_location }}</td><td><a class="btn btn-sm btn-outline-primary" href="{{ url_for('admin.complaint_detail', complaint_id=c.id) }}">Open</a></td></tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% else %}<p class="empty">No emergency complaints.</p>{% endif %}
+<h2 class="mt-4">ML predictions vs final labels</h2>
+<p class="text-muted">Correction rate: <strong>{{ correction_rate }}%</strong></p>
+{% if prediction_logs %}
+<div class="table-responsive">
+  <table class="table table-sm align-middle bg-white">
+    <thead><tr><th>Complaint</th><th>Predicted category</th><th>Final category</th><th>Predicted priority</th><th>Final priority</th><th>Corrected</th></tr></thead>
+    <tbody>
+    {% for log in prediction_logs %}
+      <tr>
+        <td>{{ log.complaint.reference_number if log.complaint else log.complaint_id }}</td>
+        <td>{{ log.predicted_category or 'Manual' }}{% if log.category_confidence is not none %} <span class="text-muted">({{ '%.1f'|format(log.category_confidence) }}%)</span>{% endif %}</td>
+        <td>{{ log.final_category }}</td>
+        <td>{{ log.predicted_priority or 'Manual' }}{% if log.priority_confidence is not none %} <span class="text-muted">({{ '%.1f'|format(log.priority_confidence) }}%)</span>{% endif %}</td>
+        <td>{{ log.final_priority }}</td>
+        <td>{{ 'Yes' if log.was_corrected else 'No' }}</td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% else %}<p class="empty">No prediction logs yet.</p>{% endif %}
+<h2 class="mt-4">Staff workload</h2>
+<table class="table bg-white"><tr><th>Name</th><th>Email</th><th>Assigned complaints</th></tr>{% for id, name, email, count in workload %}<tr><td>{{ name }}</td><td>{{ email }}</td><td>{{ count }}</td></tr>{% endfor %}</table>
+<h2>Recent activity</h2>
+{% for log in recent %}<p class="border-bottom pb-2">{{ log.created_at.strftime('%Y-%m-%d %H:%M') }} - {{ log.description }}</p>{% else %}<p class="empty">No activity.</p>{% endfor %}
+{% endblock %}

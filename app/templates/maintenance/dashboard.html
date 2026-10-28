@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Maintenance dashboard</h1>
+<div class="row g-3 mb-4">{% for label, value in [('Total assigned', total), ('Assigned', assigned), ('In progress', progress), ('Overdue', overdue)] %}<div class="col"><div class="card card-body"><span>{{ label }}</span><strong class="fs-3">{{ value }}</strong></div></div>{% endfor %}</div>
+<h2>Recently updated tasks</h2>
+{% with complaints=recent %}{% include "_complaint_table.html" %}{% endwith %}
+{% endblock %}

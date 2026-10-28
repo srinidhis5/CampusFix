@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="home-hero">
+  <div class="home-hero-content">
+    <h1>CampusFix</h1>
+    <p class="lead">Campus Complaint and Maintenance Management System</p>
+    <p>Report maintenance problems, track progress, and help campus teams close issues transparently.</p>
+    <div class="hero-actions">
+      <a class="btn btn-light btn-lg" href="{{ url_for('reporter.submit_complaint') }}">Launch Complaint</a>
+      <a class="btn btn-outline-light btn-lg" href="{{ url_for('auth.register') }}">Create Reporter Account</a>
+    </div>
+  </div>
+</section>
+
+<section class="front-section">
+  <div class="feature-grid">
+    <article class="feature-card accent-blue">
+      <span>01</span>
+      <h3>Reporter Portal</h3>
+      <p>Students can submit complaints, upload photos, track status history, read notifications, reopen once and give feedback after resolution.</p>
+      <a class="feature-link" href="{{ url_for('reporter.submit_complaint') }}">Submit complaint</a>
+    </article>
+    <article class="feature-card accent-orange">
+      <span>02</span>
+      <h3>Admin Control</h3>
+      <p>Administrators can view all complaints, assign staff, manage users, change priority, export CSV reports and review audit logs.</p>
+      <a class="feature-link" href="{{ url_for('admin.dashboard') }}">Open admin dashboard</a>
+    </article>
+    <article class="feature-card accent-green">
+      <span>03</span>
+      <h3>Maintenance Workbench</h3>
+      <p>Maintenance staff can see assigned tasks, move work to progress, add notes, upload completion proof and mark complaints resolved.</p>
+      <a class="feature-link" href="{{ url_for('maintenance.complaints') }}">View assigned work</a>
+    </article>
+  </div>
+</section>
+
+<section class="front-section split-feature">
+  <div>
+    <p class="home-kicker light">Complaint coverage</p>
+    <h2>Designed for real campus maintenance issues</h2>
+    <p>CampusFix supports electrical, plumbing, network, furniture, sanitation, laboratory equipment and other maintenance problems with priority-based due dates.</p>
+  </div>
+  <div class="category-cloud">
+    {% for category, count in categories %}
+    <a href="{{ url_for('category_coverage', category=category) }}"><span>{{ category }}</span></a>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="front-section">
+  <div class="section-heading">
+    <p class="home-kicker light">Workflow</p>
+    <h2>Track every step as the complaint moves forward</h2>
+  </div>
+  <div class="workflow-strip">
+    <span><b>1</b><strong>Report</strong><small>Issue captured</small></span>
+    <span><b>2</b><strong>Review</strong><small>Priority checked</small></span>
+    <span><b>3</b><strong>Assign</strong><small>Staff matched</small></span>
+    <span><b>4</b><strong>Repair</strong><small>Work updated</small></span>
+    <span><b>5</b><strong>Resolve</strong><small>Feedback closed</small></span>
+  </div>
+</section>
+
+<section class="front-section feature-grid">
+  <article class="info-panel">
+    <h3>Dashboards</h3>
+    <p>Role-based dashboards show totals, recent complaints, overdue work, emergency cases, feedback ratings and staff workload.</p>
+    <a class="feature-link" href="{{ url_for('auth.login') }}">Choose a dashboard</a>
+  </article>
+  <article class="info-panel">
+    <h3>Reports</h3>
+    <p>Administrators get category, status, priority, building and workload breakdowns with date filters and CSV export.</p>
+    <a class="feature-link" href="{{ url_for('admin.reports') }}">Open reports</a>
+  </article>
+</section>
+{% endblock %}

@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Sparking switch near Block B corridor",
+    "description": "There are small sparks from the switch board and it feels unsafe.",
+    "response": {
+      "category": "Electrical",
+      "category_confidence": 90.75,
+      "category_confidence_label": "High confidence",
+      "low_confidence": false,
+      "message": "Trained models: category \u2014 Logistic Regression; priority \u2014 Multinomial Naive Bayes. Please verify suggestions.",
+      "models": {
+        "category": "Logistic Regression",
+        "priority": "Multinomial Naive Bayes"
+      },
+      "priority": "Emergency",
+      "priority_confidence": 97.83,
+      "priority_confidence_label": "High confidence",
+      "source": "trained_model"
+    },
+    "screenshot": "electrical_prediction.png"
+  },
+  {
+    "title": "WiFi not available in library first floor",
+    "description": "The signal drops often and students cannot access online resources.",
+    "response": {
+      "category": "Network",
+      "category_confidence": 90.02,
+      "category_confidence_label": "High confidence",
+      "low_confidence": false,
+      "message": "Trained models: category \u2014 Logistic Regression; priority \u2014 Multinomial Naive Bayes. Please verify suggestions.",
+      "models": {
+        "category": "Logistic Regression",
+        "priority": "Multinomial Naive Bayes"
+      },
+      "priority": "Medium",
+      "priority_confidence": 80.3,
+      "priority_confidence_label": "High confidence",
+      "source": "trained_model"
+    },
+    "screenshot": "network_prediction.png"
+  }
+]

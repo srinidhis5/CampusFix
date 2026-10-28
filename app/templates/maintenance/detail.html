@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block content %}
+{% include "_complaint_detail.html" %}
+{% if complaint.status == 'Assigned' %}<form method="post" class="d-inline"><input type="hidden" name="csrf_token" value="{{ csrf_token() }}"><input name="action" value="start" type="hidden"><button class="btn btn-primary">Start work</button></form>{% endif %}
+<a class="btn btn-outline-primary" href="{{ url_for('maintenance.progress', complaint_id=complaint.id) }}">Add progress update</a>
+{% endblock %}

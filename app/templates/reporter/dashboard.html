@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Reporter dashboard</h1>
+<div class="row g-3 mb-4">
+  {% for label, value in [('Total', total), ('Submitted', submitted), ('In progress', progress), ('Resolved or closed', done), ('Unread notifications', unread)] %}
+  <div class="col-md"><div class="card card-body"><span class="text-muted">{{ label }}</span><strong class="fs-3">{{ value }}</strong></div></div>
+  {% endfor %}
+</div>
+<h2>Recent complaints</h2>
+{% with complaints=recent %}{% include "_complaint_table.html" %}{% endwith %}
+{% endblock %}

@@ -1,0 +1,1307 @@
+row_id,group_id,category,priority,split
+CSV-000003,G0021,Laboratory Equipment,Medium,train
+CSV-000004,G0020,Electrical,Low,train
+CSV-000005,G0030,Sanitation,Medium,train
+CSV-000006,G0025,Electrical,High,train
+CSV-000007,G0004,Furniture,Low,train
+CSV-000008,G0027,Plumbing,Medium,train
+CSV-000010,G0025,Electrical,Emergency,train
+CSV-000012,G0019,Plumbing,Emergency,train
+CSV-000013,G0007,Plumbing,Medium,train
+CSV-000015,G0022,Network,Low,train
+CSV-000018,G0013,Network,Medium,train
+CSV-000019,G0006,Other,Low,train
+CSV-000021,G0034,Furniture,Medium,train
+CSV-000024,G0020,Electrical,Low,train
+CSV-000026,G0033,Network,High,train
+CSV-000027,G0026,Plumbing,Low,train
+CSV-000028,G0011,Other,Low,train
+CSV-000029,G0020,Electrical,Low,train
+CSV-000030,G0029,Electrical,Medium,train
+CSV-000031,G0032,Sanitation,Medium,train
+CSV-000035,G0014,Other,Medium,train
+CSV-000036,G0033,Network,Low,train
+CSV-000038,G0034,Furniture,Low,train
+CSV-000039,G0002,Electrical,Emergency,train
+CSV-000040,G0003,Furniture,High,train
+CSV-000041,G0024,Network,Low,train
+CSV-000042,G0023,Sanitation,Medium,train
+CSV-000044,G0028,Sanitation,Medium,train
+CSV-000045,G0008,Laboratory Equipment,Medium,train
+CSV-000046,G0021,Laboratory Equipment,Medium,train
+CSV-000048,G0026,Plumbing,Low,train
+CSV-000052,G0015,Laboratory Equipment,Medium,train
+CSV-000053,G0028,Sanitation,Medium,train
+CSV-000056,G0013,Network,High,train
+CSV-000057,G0015,Laboratory Equipment,High,train
+CSV-000058,G0000,Other,Medium,train
+CSV-000061,G0025,Electrical,Emergency,train
+CSV-000062,G0008,Laboratory Equipment,High,train
+CSV-000063,G0007,Plumbing,High,train
+CSV-000066,G0028,Sanitation,Medium,train
+CSV-000067,G0018,Laboratory Equipment,Low,train
+CSV-000068,G0019,Plumbing,Emergency,train
+CSV-000069,G0008,Laboratory Equipment,Medium,train
+CSV-000070,G0025,Electrical,Emergency,train
+CSV-000073,G0020,Electrical,High,train
+CSV-000074,G0001,Furniture,Medium,train
+CSV-000075,G0018,Laboratory Equipment,Low,train
+CSV-000077,G0024,Network,Medium,train
+CSV-000078,G0015,Laboratory Equipment,Medium,train
+CSV-000080,G0019,Plumbing,Emergency,train
+CSV-000081,G0027,Plumbing,High,train
+CSV-000082,G0019,Plumbing,High,train
+CSV-000083,G0020,Electrical,Medium,train
+CSV-000084,G0007,Plumbing,High,train
+CSV-000086,G0000,Other,Low,train
+CSV-000087,G0007,Plumbing,Medium,train
+CSV-000088,G0025,Electrical,Emergency,train
+CSV-000091,G0030,Sanitation,Medium,train
+CSV-000094,G0033,Network,Medium,train
+CSV-000095,G0000,Other,Low,train
+CSV-000096,G0026,Plumbing,High,train
+CSV-000097,G0011,Other,Low,train
+CSV-000098,G0033,Network,Low,train
+CSV-000099,G0007,Plumbing,High,train
+CSV-000101,G0027,Plumbing,High,train
+CSV-000102,G0000,Other,High,train
+CSV-000104,G0022,Network,Medium,train
+CSV-000105,G0028,Sanitation,Medium,train
+CSV-000107,G0013,Network,High,train
+CSV-000109,G0032,Sanitation,Medium,train
+CSV-000110,G0018,Laboratory Equipment,Medium,train
+CSV-000112,G0018,Laboratory Equipment,Medium,train
+CSV-000113,G0025,Electrical,High,train
+CSV-000114,G0018,Laboratory Equipment,Medium,train
+CSV-000115,G0026,Plumbing,Medium,train
+CSV-000116,G0020,Electrical,High,train
+CSV-000117,G0013,Network,High,train
+CSV-000119,G0025,Electrical,Emergency,train
+CSV-000120,G0004,Furniture,Low,train
+CSV-000121,G0013,Network,Low,train
+CSV-000122,G0003,Furniture,Medium,train
+CSV-000123,G0027,Plumbing,Medium,train
+CSV-000124,G0021,Laboratory Equipment,High,train
+CSV-000127,G0027,Plumbing,Low,train
+CSV-000128,G0032,Sanitation,Medium,train
+CSV-000129,G0024,Network,Low,train
+CSV-000130,G0008,Laboratory Equipment,Medium,train
+CSV-000131,G0001,Furniture,High,train
+CSV-000132,G0015,Laboratory Equipment,Low,train
+CSV-000133,G0013,Network,High,train
+CSV-000134,G0030,Sanitation,Medium,train
+CSV-000135,G0003,Furniture,Low,train
+CSV-000136,G0013,Network,High,train
+CSV-000137,G0001,Furniture,Medium,train
+CSV-000138,G0023,Sanitation,Medium,train
+CSV-000139,G0029,Electrical,Low,train
+CSV-000140,G0029,Electrical,Medium,train
+CSV-000141,G0033,Network,Medium,train
+CSV-000143,G0033,Network,Medium,train
+CSV-000144,G0032,Sanitation,Medium,train
+CSV-000145,G0002,Electrical,Emergency,train
+CSV-000146,G0022,Network,High,train
+CSV-000148,G0008,Laboratory Equipment,High,train
+CSV-000149,G0033,Network,Low,train
+CSV-000150,G0033,Network,Medium,train
+CSV-000151,G0008,Laboratory Equipment,Medium,train
+CSV-000152,G0006,Other,Low,train
+CSV-000153,G0001,Furniture,High,train
+CSV-000154,G0023,Sanitation,Low,train
+CSV-000155,G0025,Electrical,Emergency,train
+CSV-000156,G0024,Network,Medium,train
+CSV-000160,G0033,Network,Low,train
+CSV-000162,G0034,Furniture,Medium,train
+CSV-000163,G0029,Electrical,Medium,train
+CSV-000164,G0029,Electrical,Medium,train
+CSV-000165,G0025,Electrical,Emergency,train
+CSV-000166,G0025,Electrical,Emergency,train
+CSV-000167,G0033,Network,High,train
+CSV-000168,G0034,Furniture,Medium,train
+CSV-000169,G0019,Plumbing,High,train
+CSV-000173,G0008,Laboratory Equipment,Medium,train
+CSV-000174,G0011,Other,Low,train
+CSV-000175,G0002,Electrical,High,train
+CSV-000176,G0019,Plumbing,High,train
+CSV-000178,G0020,Electrical,Medium,train
+CSV-000179,G0000,Other,Medium,train
+CSV-000180,G0013,Network,Medium,train
+CSV-000181,G0013,Network,High,train
+CSV-000182,G0000,Other,High,train
+CSV-000183,G0025,Electrical,Emergency,train
+CSV-000184,G0024,Network,High,train
+CSV-000186,G0025,Electrical,Emergency,train
+CSV-000188,G0007,Plumbing,Medium,train
+CSV-000189,G0034,Furniture,Low,train
+CSV-000190,G0033,Network,Medium,train
+CSV-000191,G0033,Network,Low,train
+CSV-000192,G0029,Electrical,Low,train
+CSV-000193,G0002,Electrical,Emergency,train
+CSV-000194,G0025,Electrical,Emergency,train
+CSV-000195,G0000,Other,Low,train
+CSV-000196,G0021,Laboratory Equipment,Low,train
+CSV-000197,G0032,Sanitation,Medium,train
+CSV-000201,G0028,Sanitation,Low,train
+CSV-000202,G0002,Electrical,Emergency,train
+CSV-000204,G0034,Furniture,Low,train
+CSV-000205,G0032,Sanitation,Medium,train
+CSV-000206,G0006,Other,Low,train
+CSV-000207,G0018,Laboratory Equipment,Low,train
+CSV-000208,G0026,Plumbing,Low,train
+CSV-000209,G0025,Electrical,Emergency,train
+CSV-000210,G0021,Laboratory Equipment,Medium,train
+CSV-000212,G0008,Laboratory Equipment,Low,train
+CSV-000213,G0020,Electrical,High,train
+CSV-000214,G0006,Other,Low,train
+CSV-000216,G0007,Plumbing,Medium,train
+CSV-000217,G0034,Furniture,Medium,train
+CSV-000218,G0026,Plumbing,Low,train
+CSV-000219,G0022,Network,Medium,train
+CSV-000220,G0018,Laboratory Equipment,Low,train
+CSV-000224,G0027,Plumbing,Medium,train
+CSV-000226,G0033,Network,Medium,train
+CSV-000228,G0027,Plumbing,High,train
+CSV-000229,G0019,Plumbing,Emergency,train
+CSV-000231,G0004,Furniture,Medium,train
+CSV-000232,G0028,Sanitation,Medium,train
+CSV-000233,G0001,Furniture,Medium,train
+CSV-000234,G0013,Network,High,train
+CSV-000235,G0032,Sanitation,Medium,train
+CSV-000237,G0003,Furniture,High,train
+CSV-000238,G0006,Other,High,train
+CSV-000240,G0030,Sanitation,High,train
+CSV-000241,G0004,Furniture,Low,train
+CSV-000242,G0034,Furniture,Medium,train
+CSV-000244,G0014,Other,High,train
+CSV-000246,G0029,Electrical,High,train
+CSV-000247,G0021,Laboratory Equipment,Medium,train
+CSV-000248,G0013,Network,Low,train
+CSV-000250,G0030,Sanitation,Medium,train
+CSV-000251,G0020,Electrical,Medium,train
+CSV-000252,G0027,Plumbing,High,train
+CSV-000256,G0034,Furniture,Medium,train
+CSV-000258,G0007,Plumbing,Medium,train
+CSV-000259,G0033,Network,Medium,train
+CSV-000260,G0023,Sanitation,High,train
+CSV-000262,G0011,Other,Low,train
+CSV-000263,G0023,Sanitation,Medium,train
+CSV-000264,G0030,Sanitation,Medium,train
+CSV-000265,G0013,Network,Low,train
+CSV-000266,G0028,Sanitation,Medium,train
+CSV-000267,G0033,Network,Medium,train
+CSV-000268,G0030,Sanitation,Low,train
+CSV-000269,G0003,Furniture,High,train
+CSV-000271,G0004,Furniture,Low,train
+CSV-000274,G0006,Other,Medium,train
+CSV-000275,G0015,Laboratory Equipment,High,train
+CSV-000276,G0015,Laboratory Equipment,Medium,train
+CSV-000277,G0013,Network,High,train
+CSV-000278,G0007,Plumbing,Medium,train
+CSV-000279,G0026,Plumbing,Medium,train
+CSV-000280,G0002,Electrical,Emergency,train
+CSV-000281,G0018,Laboratory Equipment,Medium,train
+CSV-000282,G0032,Sanitation,Low,train
+CSV-000283,G0021,Laboratory Equipment,Medium,train
+CSV-000284,G0013,Network,High,train
+CSV-000285,G0034,Furniture,Low,train
+CSV-000286,G0003,Furniture,Medium,train
+CSV-000287,G0014,Other,High,train
+CSV-000288,G0019,Plumbing,Emergency,train
+CSV-000291,G0000,Other,Medium,train
+CSV-000294,G0008,Laboratory Equipment,Low,train
+CSV-000296,G0034,Furniture,Low,train
+CSV-000299,G0025,Electrical,Emergency,train
+CSV-000300,G0028,Sanitation,Medium,train
+CSV-000301,G0029,Electrical,Medium,train
+CSV-000303,G0020,Electrical,High,train
+CSV-000304,G0011,Other,High,train
+CSV-000305,G0007,Plumbing,Low,train
+CSV-000306,G0014,Other,High,train
+CSV-000307,G0019,Plumbing,Emergency,train
+CSV-000312,G0001,Furniture,Medium,train
+CSV-000313,G0004,Furniture,Low,train
+CSV-000315,G0030,Sanitation,High,train
+CSV-000316,G0020,Electrical,Medium,train
+CSV-000317,G0022,Network,Medium,train
+CSV-000319,G0003,Furniture,High,train
+CSV-000320,G0004,Furniture,Low,train
+CSV-000321,G0027,Plumbing,High,train
+CSV-000323,G0019,Plumbing,Emergency,train
+CSV-000326,G0014,Other,Low,train
+CSV-000327,G0003,Furniture,Medium,train
+CSV-000328,G0004,Furniture,Low,train
+CSV-000330,G0004,Furniture,High,train
+CSV-000331,G0001,Furniture,Medium,train
+CSV-000333,G0014,Other,High,train
+CSV-000335,G0007,Plumbing,Low,train
+CSV-000336,G0014,Other,High,train
+CSV-000337,G0018,Laboratory Equipment,Low,train
+CSV-000338,G0028,Sanitation,Medium,train
+CSV-000339,G0021,Laboratory Equipment,High,train
+CSV-000340,G0014,Other,Medium,train
+CSV-000341,G0004,Furniture,Low,train
+CSV-000344,G0015,Laboratory Equipment,Medium,train
+CSV-000345,G0029,Electrical,Medium,train
+CSV-000346,G0033,Network,Low,train
+CSV-000348,G0030,Sanitation,Medium,train
+CSV-000350,G0015,Laboratory Equipment,High,train
+CSV-000353,G0019,Plumbing,High,train
+CSV-000356,G0011,Other,Medium,train
+CSV-000359,G0029,Electrical,Medium,train
+CSV-000361,G0003,Furniture,Medium,train
+CSV-000362,G0029,Electrical,High,train
+CSV-000363,G0004,Furniture,Low,train
+CSV-000366,G0025,Electrical,Emergency,train
+CSV-000368,G0022,Network,High,train
+CSV-000369,G0027,Plumbing,Low,train
+CSV-000371,G0001,Furniture,High,train
+CSV-000373,G0020,Electrical,Medium,train
+CSV-000374,G0022,Network,High,train
+CSV-000375,G0018,Laboratory Equipment,High,train
+CSV-000376,G0002,Electrical,Emergency,train
+CSV-000378,G0023,Sanitation,High,train
+CSV-000379,G0033,Network,High,train
+CSV-000381,G0020,Electrical,Medium,train
+CSV-000382,G0003,Furniture,Medium,train
+CSV-000384,G0032,Sanitation,Low,train
+CSV-000385,G0026,Plumbing,Medium,train
+CSV-000386,G0025,Electrical,Emergency,train
+CSV-000387,G0000,Other,Low,train
+CSV-000388,G0003,Furniture,High,train
+CSV-000390,G0020,Electrical,High,train
+CSV-000391,G0014,Other,Low,train
+CSV-000395,G0021,Laboratory Equipment,Low,train
+CSV-000396,G0006,Other,High,train
+CSV-000397,G0032,Sanitation,Medium,train
+CSV-000398,G0006,Other,Low,train
+CSV-000400,G0007,Plumbing,High,train
+CSV-000403,G0018,Laboratory Equipment,High,train
+CSV-000407,G0033,Network,Medium,train
+CSV-000408,G0000,Other,Medium,train
+CSV-000409,G0015,Laboratory Equipment,Medium,train
+CSV-000412,G0024,Network,Medium,train
+CSV-000413,G0027,Plumbing,High,train
+CSV-000414,G0007,Plumbing,High,train
+CSV-000415,G0004,Furniture,Medium,train
+CSV-000417,G0020,Electrical,Medium,train
+CSV-000418,G0014,Other,High,train
+CSV-000419,G0022,Network,High,train
+CSV-000420,G0023,Sanitation,Medium,train
+CSV-000421,G0028,Sanitation,High,train
+CSV-000423,G0032,Sanitation,Medium,train
+CSV-000424,G0027,Plumbing,Low,train
+CSV-000425,G0030,Sanitation,Medium,train
+CSV-000426,G0001,Furniture,Medium,train
+CSV-000428,G0008,Laboratory Equipment,Low,train
+CSV-000429,G0029,Electrical,Medium,train
+CSV-000431,G0003,Furniture,High,train
+CSV-000432,G0013,Network,High,train
+CSV-000433,G0033,Network,Medium,train
+CSV-000435,G0019,Plumbing,High,train
+CSV-000436,G0008,Laboratory Equipment,Low,train
+CSV-000437,G0027,Plumbing,High,train
+CSV-000438,G0002,Electrical,High,train
+CSV-000439,G0019,Plumbing,High,train
+CSV-000440,G0026,Plumbing,High,train
+CSV-000441,G0015,Laboratory Equipment,Medium,train
+CSV-000442,G0030,Sanitation,High,train
+CSV-000443,G0024,Network,Low,train
+CSV-000444,G0034,Furniture,Medium,train
+CSV-000446,G0004,Furniture,Medium,train
+CSV-000447,G0029,Electrical,Medium,train
+CSV-000449,G0020,Electrical,Medium,train
+CSV-000450,G0029,Electrical,Low,train
+CSV-000456,G0032,Sanitation,Low,train
+CSV-000457,G0028,Sanitation,Medium,train
+CSV-000458,G0029,Electrical,Low,train
+CSV-000459,G0027,Plumbing,High,train
+CSV-000460,G0013,Network,Low,train
+CSV-000462,G0020,Electrical,Medium,train
+CSV-000463,G0029,Electrical,High,train
+CSV-000466,G0021,Laboratory Equipment,High,train
+CSV-000468,G0001,Furniture,Medium,train
+CSV-000469,G0013,Network,Low,train
+CSV-000470,G0001,Furniture,High,train
+CSV-000471,G0013,Network,High,train
+CSV-000472,G0021,Laboratory Equipment,High,train
+CSV-000474,G0023,Sanitation,Medium,train
+CSV-000475,G0015,Laboratory Equipment,Medium,train
+CSV-000476,G0020,Electrical,High,train
+CSV-000477,G0001,Furniture,Medium,train
+CSV-000478,G0002,Electrical,Emergency,train
+CSV-000480,G0032,Sanitation,Medium,train
+CSV-000482,G0003,Furniture,Medium,train
+CSV-000483,G0027,Plumbing,Low,train
+CSV-000485,G0014,Other,Medium,train
+CSV-000486,G0004,Furniture,Low,train
+CSV-000489,G0030,Sanitation,Medium,train
+CSV-000490,G0028,Sanitation,Low,train
+CSV-000493,G0020,Electrical,High,train
+CSV-000496,G0024,Network,High,train
+CSV-000497,G0034,Furniture,Low,train
+CSV-000498,G0027,Plumbing,Medium,train
+CSV-000500,G0019,Plumbing,High,train
+CSV-000501,G0025,Electrical,High,train
+CSV-000502,G0034,Furniture,Low,train
+CSV-000504,G0002,Electrical,High,train
+CSV-000505,G0033,Network,Medium,train
+CSV-000507,G0002,Electrical,High,train
+CSV-000509,G0002,Electrical,Emergency,train
+CSV-000510,G0032,Sanitation,Low,train
+CSV-000511,G0020,Electrical,Medium,train
+CSV-000513,G0032,Sanitation,Medium,train
+CSV-000515,G0008,Laboratory Equipment,High,train
+CSV-000516,G0034,Furniture,Medium,train
+CSV-000518,G0015,Laboratory Equipment,High,train
+CSV-000519,G0000,Other,High,train
+CSV-000521,G0026,Plumbing,High,train
+CSV-000524,G0027,Plumbing,High,train
+CSV-000526,G0004,Furniture,Low,train
+CSV-000528,G0034,Furniture,Medium,train
+CSV-000529,G0022,Network,Medium,train
+CSV-000530,G0002,Electrical,Emergency,train
+CSV-000531,G0013,Network,Medium,train
+CSV-000532,G0008,Laboratory Equipment,High,train
+CSV-000533,G0001,Furniture,High,train
+CSV-000535,G0011,Other,Medium,train
+CSV-000537,G0001,Furniture,High,train
+CSV-000538,G0013,Network,High,train
+CSV-000539,G0019,Plumbing,Emergency,train
+CSV-000540,G0000,Other,Medium,train
+CSV-000541,G0013,Network,Medium,train
+CSV-000542,G0028,Sanitation,Medium,train
+CSV-000543,G0001,Furniture,Medium,train
+CSV-000544,G0011,Other,Medium,train
+CSV-000545,G0013,Network,Medium,train
+CSV-000546,G0026,Plumbing,Low,train
+CSV-000547,G0011,Other,Medium,train
+CSV-000548,G0029,Electrical,Low,train
+CSV-000549,G0011,Other,Medium,train
+CSV-000550,G0024,Network,Medium,train
+CSV-000552,G0030,Sanitation,Medium,train
+CSV-000555,G0030,Sanitation,Low,train
+CSV-000556,G0026,Plumbing,Low,train
+CSV-000557,G0011,Other,Low,train
+CSV-000558,G0008,Laboratory Equipment,Low,train
+CSV-000560,G0013,Network,Medium,train
+CSV-000561,G0033,Network,Low,train
+CSV-000562,G0006,Other,Medium,train
+CSV-000565,G0033,Network,Medium,train
+CSV-000566,G0003,Furniture,High,train
+CSV-000567,G0028,Sanitation,Medium,train
+CSV-000568,G0027,Plumbing,Low,train
+CSV-000569,G0014,Other,Medium,train
+CSV-000572,G0003,Furniture,Low,train
+CSV-000573,G0023,Sanitation,Medium,train
+CSV-000574,G0028,Sanitation,High,train
+CSV-000575,G0001,Furniture,Medium,train
+CSV-000577,G0029,Electrical,High,train
+CSV-000578,G0000,Other,Medium,train
+CSV-000579,G0018,Laboratory Equipment,Low,train
+CSV-000580,G0019,Plumbing,High,train
+CSV-000583,G0013,Network,Medium,train
+CSV-000585,G0029,Electrical,Medium,train
+CSV-000586,G0032,Sanitation,Low,train
+CSV-000587,G0006,Other,Low,train
+CSV-000588,G0024,Network,Medium,train
+CSV-000589,G0026,Plumbing,Low,train
+CSV-000590,G0018,Laboratory Equipment,Low,train
+CSV-000591,G0014,Other,High,train
+CSV-000593,G0020,Electrical,High,train
+CSV-000594,G0020,Electrical,Medium,train
+CSV-000596,G0030,Sanitation,Medium,train
+CSV-000597,G0018,Laboratory Equipment,Low,train
+CSV-000598,G0018,Laboratory Equipment,Medium,train
+CSV-000599,G0003,Furniture,Low,train
+CSV-000600,G0002,Electrical,Emergency,train
+CSV-000603,G0003,Furniture,High,train
+CSV-000605,G0018,Laboratory Equipment,Low,train
+CSV-000606,G0014,Other,High,train
+CSV-000607,G0032,Sanitation,High,train
+CSV-000608,G0020,Electrical,High,train
+CSV-000611,G0034,Furniture,Medium,train
+CSV-000612,G0022,Network,Medium,train
+CSV-000613,G0006,Other,Low,train
+CSV-000615,G0027,Plumbing,High,train
+CSV-000618,G0001,Furniture,High,train
+CSV-000620,G0023,Sanitation,Medium,train
+CSV-000623,G0019,Plumbing,Emergency,train
+CSV-000624,G0030,Sanitation,Medium,train
+CSV-000625,G0000,Other,Medium,train
+CSV-000626,G0001,Furniture,High,train
+CSV-000627,G0003,Furniture,Low,train
+CSV-000628,G0027,Plumbing,Medium,train
+CSV-000630,G0030,Sanitation,Medium,train
+CSV-000632,G0001,Furniture,Low,train
+CSV-000633,G0028,Sanitation,High,train
+CSV-000635,G0028,Sanitation,Low,train
+CSV-000638,G0025,Electrical,High,train
+CSV-000641,G0014,Other,High,train
+CSV-000643,G0006,Other,High,train
+CSV-000644,G0034,Furniture,Low,train
+CSV-000645,G0030,Sanitation,Medium,train
+CSV-000646,G0020,Electrical,High,train
+CSV-000648,G0024,Network,Medium,train
+CSV-000653,G0002,Electrical,Emergency,train
+CSV-000655,G0029,Electrical,Medium,train
+CSV-000657,G0026,Plumbing,Low,train
+CSV-000659,G0028,Sanitation,High,train
+CSV-000660,G0007,Plumbing,Medium,train
+CSV-000661,G0007,Plumbing,High,train
+CSV-000662,G0029,Electrical,Medium,train
+CSV-000665,G0033,Network,Medium,train
+CSV-000666,G0001,Furniture,Medium,train
+CSV-000667,G0032,Sanitation,Medium,train
+CSV-000668,G0002,Electrical,Emergency,train
+CSV-000671,G0020,Electrical,Medium,train
+CSV-000673,G0015,Laboratory Equipment,Medium,train
+CSV-000674,G0022,Network,Medium,train
+CSV-000679,G0024,Network,Medium,train
+CSV-000680,G0011,Other,Low,train
+CSV-000684,G0003,Furniture,High,train
+CSV-000685,G0019,Plumbing,Emergency,train
+CSV-000686,G0034,Furniture,High,train
+CSV-000687,G0008,Laboratory Equipment,Medium,train
+CSV-000688,G0029,Electrical,Medium,train
+CSV-000689,G0023,Sanitation,Medium,train
+CSV-000692,G0003,Furniture,Medium,train
+CSV-000693,G0025,Electrical,High,train
+CSV-000695,G0003,Furniture,High,train
+CSV-000696,G0025,Electrical,Emergency,train
+CSV-000697,G0000,Other,High,train
+CSV-000698,G0004,Furniture,Low,train
+CSV-000700,G0026,Plumbing,Low,train
+CSV-000701,G0004,Furniture,Medium,train
+CSV-000702,G0011,Other,Low,train
+CSV-000705,G0022,Network,High,train
+CSV-000706,G0011,Other,Low,train
+CSV-000707,G0032,Sanitation,Medium,train
+CSV-000709,G0026,Plumbing,Medium,train
+CSV-000711,G0025,Electrical,High,train
+CSV-000713,G0023,Sanitation,Low,train
+CSV-000714,G0022,Network,High,train
+CSV-000715,G0002,Electrical,Emergency,train
+CSV-000718,G0002,Electrical,High,train
+CSV-000719,G0026,Plumbing,Medium,train
+CSV-000720,G0018,Laboratory Equipment,Low,train
+CSV-000721,G0003,Furniture,Medium,train
+CSV-000723,G0025,Electrical,Emergency,train
+CSV-000724,G0008,Laboratory Equipment,Low,train
+CSV-000725,G0004,Furniture,High,train
+CSV-000726,G0013,Network,Low,train
+CSV-000727,G0014,Other,High,train
+CSV-000728,G0023,Sanitation,High,train
+CSV-000729,G0003,Furniture,Medium,train
+CSV-000730,G0024,Network,High,train
+CSV-000731,G0019,Plumbing,Emergency,train
+CSV-000732,G0004,Furniture,Medium,train
+CSV-000733,G0028,Sanitation,Low,train
+CSV-000734,G0032,Sanitation,Medium,train
+CSV-000735,G0021,Laboratory Equipment,Medium,train
+CSV-000736,G0002,Electrical,High,train
+CSV-000737,G0004,Furniture,Medium,train
+CSV-000739,G0004,Furniture,Medium,train
+CSV-000741,G0007,Plumbing,High,train
+CSV-000742,G0004,Furniture,Low,train
+CSV-000744,G0002,Electrical,High,train
+CSV-000745,G0011,Other,Low,train
+CSV-000747,G0013,Network,Medium,train
+CSV-000748,G0013,Network,High,train
+CSV-000749,G0003,Furniture,Medium,train
+CSV-000750,G0013,Network,High,train
+CSV-000752,G0000,Other,Low,train
+CSV-000753,G0026,Plumbing,Low,train
+CSV-000754,G0003,Furniture,Medium,train
+CSV-000756,G0018,Laboratory Equipment,Low,train
+CSV-000759,G0022,Network,Low,train
+CSV-000760,G0026,Plumbing,Medium,train
+CSV-000762,G0004,Furniture,Low,train
+CSV-000763,G0034,Furniture,Low,train
+CSV-000764,G0028,Sanitation,Low,train
+CSV-000766,G0001,Furniture,Medium,train
+CSV-000767,G0004,Furniture,Medium,train
+CSV-000768,G0028,Sanitation,Low,train
+CSV-000769,G0024,Network,High,train
+CSV-000771,G0002,Electrical,Emergency,train
+CSV-000772,G0034,Furniture,Low,train
+CSV-000773,G0033,Network,High,train
+CSV-000775,G0021,Laboratory Equipment,High,train
+CSV-000777,G0001,Furniture,Medium,train
+CSV-000778,G0020,Electrical,High,train
+CSV-000779,G0003,Furniture,Medium,train
+CSV-000781,G0019,Plumbing,Emergency,train
+CSV-000782,G0015,Laboratory Equipment,High,train
+CSV-000783,G0026,Plumbing,Medium,train
+CSV-000784,G0000,Other,Low,train
+CSV-000785,G0024,Network,High,train
+CSV-000787,G0002,Electrical,Emergency,train
+CSV-000788,G0029,Electrical,Low,train
+CSV-000789,G0025,Electrical,Emergency,train
+CSV-000790,G0006,Other,Low,train
+CSV-000791,G0019,Plumbing,High,train
+CSV-000793,G0019,Plumbing,Emergency,train
+CSV-000795,G0025,Electrical,Emergency,train
+CSV-000797,G0001,Furniture,Medium,train
+CSV-000799,G0004,Furniture,Medium,train
+CSV-000800,G0029,Electrical,Low,train
+CSV-000801,G0019,Plumbing,High,train
+CSV-000802,G0013,Network,Medium,train
+CSV-000803,G0027,Plumbing,High,train
+CSV-000804,G0024,Network,Low,train
+CSV-000805,G0008,Laboratory Equipment,Medium,train
+CSV-000806,G0011,Other,High,train
+CSV-000807,G0003,Furniture,High,train
+CSV-000808,G0030,Sanitation,Medium,train
+CSV-000809,G0028,Sanitation,Medium,train
+CSV-000810,G0033,Network,Low,train
+CSV-000812,G0002,Electrical,Emergency,train
+CSV-000814,G0022,Network,Medium,train
+CSV-000815,G0024,Network,Low,train
+CSV-000816,G0003,Furniture,Low,train
+CSV-000819,G0020,Electrical,Low,train
+CSV-000820,G0025,Electrical,Emergency,train
+CSV-000821,G0032,Sanitation,Low,train
+CSV-000822,G0033,Network,Low,train
+CSV-000823,G0001,Furniture,Medium,train
+CSV-000824,G0022,Network,Low,train
+CSV-000825,G0026,Plumbing,Medium,train
+CSV-000826,G0004,Furniture,Low,train
+CSV-000827,G0007,Plumbing,High,train
+CSV-000829,G0033,Network,Low,train
+CSV-000831,G0008,Laboratory Equipment,Low,train
+CSV-000832,G0007,Plumbing,Medium,train
+CSV-000833,G0007,Plumbing,Medium,train
+CSV-000834,G0033,Network,Medium,train
+CSV-000836,G0004,Furniture,Medium,train
+CSV-000838,G0030,Sanitation,Medium,train
+CSV-000842,G0029,Electrical,Medium,train
+CSV-000843,G0015,Laboratory Equipment,High,train
+CSV-000844,G0001,Furniture,High,train
+CSV-000846,G0007,Plumbing,Medium,train
+CSV-000848,G0027,Plumbing,Medium,train
+CSV-000849,G0028,Sanitation,High,train
+CSV-000850,G0006,Other,Medium,train
+CSV-000851,G0021,Laboratory Equipment,Low,train
+CSV-000852,G0033,Network,Medium,train
+CSV-000853,G0006,Other,Low,train
+CSV-000854,G0024,Network,Medium,train
+CSV-000855,G0022,Network,Medium,train
+CSV-000856,G0007,Plumbing,Medium,train
+CSV-000860,G0018,Laboratory Equipment,Medium,train
+CSV-000862,G0022,Network,Medium,train
+CSV-000863,G0019,Plumbing,High,train
+CSV-000865,G0019,Plumbing,High,train
+CSV-000866,G0011,Other,Low,train
+CSV-000867,G0029,Electrical,Medium,train
+CSV-000868,G0023,Sanitation,Low,train
+CSV-000873,G0030,Sanitation,Low,train
+CSV-000874,G0013,Network,Medium,train
+CSV-000876,G0030,Sanitation,Medium,train
+CSV-000878,G0015,Laboratory Equipment,Medium,train
+CSV-000879,G0000,Other,High,train
+CSV-000880,G0007,Plumbing,Medium,train
+CSV-000881,G0023,Sanitation,High,train
+CSV-000882,G0021,Laboratory Equipment,Medium,train
+CSV-000883,G0014,Other,Low,train
+CSV-000884,G0018,Laboratory Equipment,Medium,train
+CSV-000885,G0022,Network,Medium,train
+CSV-000886,G0032,Sanitation,Medium,train
+CSV-000887,G0026,Plumbing,Low,train
+CSV-000890,G0025,Electrical,Emergency,train
+CSV-000891,G0022,Network,High,train
+CSV-000892,G0002,Electrical,Emergency,train
+CSV-000893,G0025,Electrical,Emergency,train
+CSV-000895,G0030,Sanitation,Medium,train
+CSV-000896,G0020,Electrical,Medium,train
+CSV-000897,G0007,Plumbing,Medium,train
+CSV-000898,G0011,Other,Medium,train
+CSV-000899,G0004,Furniture,Low,train
+CSV-000900,G0018,Laboratory Equipment,Medium,train
+CSV-000901,G0013,Network,High,train
+CSV-000903,G0024,Network,Medium,train
+CSV-000904,G0020,Electrical,Medium,train
+CSV-000905,G0007,Plumbing,High,train
+CSV-000906,G0008,Laboratory Equipment,Low,train
+CSV-000907,G0027,Plumbing,Low,train
+CSV-000908,G0021,Laboratory Equipment,High,train
+CSV-000909,G0027,Plumbing,Low,train
+CSV-000911,G0030,Sanitation,Medium,train
+CSV-000913,G0025,Electrical,Emergency,train
+CSV-000914,G0011,Other,High,train
+CSV-000915,G0029,Electrical,Medium,train
+CSV-000916,G0023,Sanitation,High,train
+CSV-000918,G0013,Network,High,train
+CSV-000919,G0027,Plumbing,Low,train
+CSV-000920,G0034,Furniture,Low,train
+CSV-000921,G0001,Furniture,Medium,train
+CSV-000922,G0033,Network,High,train
+CSV-000924,G0034,Furniture,Medium,train
+CSV-000927,G0018,Laboratory Equipment,Medium,train
+CSV-000929,G0032,Sanitation,High,train
+CSV-000931,G0033,Network,Low,train
+CSV-000933,G0032,Sanitation,Medium,train
+CSV-000935,G0019,Plumbing,Emergency,train
+CSV-000936,G0024,Network,Medium,train
+CSV-000938,G0002,Electrical,Emergency,train
+CSV-000939,G0001,Furniture,Medium,train
+CSV-000940,G0002,Electrical,High,train
+CSV-000941,G0026,Plumbing,High,train
+CSV-000942,G0003,Furniture,Low,train
+CSV-000943,G0028,Sanitation,Medium,train
+CSV-000944,G0019,Plumbing,Emergency,train
+CSV-000945,G0007,Plumbing,Low,train
+CSV-000946,G0027,Plumbing,High,train
+CSV-000948,G0004,Furniture,Medium,train
+CSV-000949,G0004,Furniture,Medium,train
+CSV-000950,G0026,Plumbing,Medium,train
+CSV-000951,G0014,Other,High,train
+CSV-000954,G0007,Plumbing,Medium,train
+CSV-000955,G0015,Laboratory Equipment,Medium,train
+CSV-000956,G0029,Electrical,High,train
+CSV-000959,G0030,Sanitation,Medium,train
+CSV-000960,G0026,Plumbing,Medium,train
+CSV-000961,G0034,Furniture,Low,train
+CSV-000962,G0014,Other,Low,train
+CSV-000963,G0023,Sanitation,High,train
+CSV-000965,G0033,Network,Medium,train
+CSV-000967,G0014,Other,High,train
+CSV-000968,G0033,Network,High,train
+CSV-000970,G0034,Furniture,Medium,train
+CSV-000971,G0030,Sanitation,Low,train
+CSV-000973,G0008,Laboratory Equipment,Medium,train
+CSV-000974,G0029,Electrical,Medium,train
+CSV-000976,G0020,Electrical,Low,train
+CSV-000978,G0000,Other,Medium,train
+CSV-000980,G0032,Sanitation,Low,train
+CSV-000981,G0019,Plumbing,High,train
+CSV-000982,G0006,Other,Medium,train
+CSV-000984,G0020,Electrical,High,train
+CSV-000985,G0015,Laboratory Equipment,High,train
+CSV-000986,G0002,Electrical,Emergency,train
+CSV-000987,G0002,Electrical,Emergency,train
+CSV-000988,G0030,Sanitation,Medium,train
+CSV-000990,G0022,Network,Low,train
+CSV-000991,G0001,Furniture,High,train
+CSV-000992,G0022,Network,Medium,train
+CSV-000993,G0007,Plumbing,Medium,train
+CSV-000994,G0022,Network,Medium,train
+CSV-000996,G0030,Sanitation,Low,train
+CSV-000998,G0023,Sanitation,High,train
+CSV-001000,G0015,Laboratory Equipment,Medium,train
+CSV-001001,G0022,Network,Low,train
+CSV-001002,G0022,Network,High,train
+CSV-001003,G0032,Sanitation,Medium,train
+CSV-001004,G0023,Sanitation,Low,train
+CSV-001005,G0006,Other,Medium,train
+CSV-001006,G0029,Electrical,Medium,train
+CSV-001007,G0002,Electrical,Emergency,train
+CSV-001008,G0027,Plumbing,High,train
+CSV-001010,G0013,Network,Medium,train
+CSV-001011,G0003,Furniture,High,train
+CSV-001012,G0025,Electrical,Emergency,train
+CSV-001013,G0001,Furniture,High,train
+CSV-001015,G0014,Other,Low,train
+CSV-001018,G0029,Electrical,Low,train
+CSV-001020,G0020,Electrical,High,train
+CSV-001021,G0008,Laboratory Equipment,Low,train
+CSV-001022,G0028,Sanitation,Medium,train
+CSV-001023,G0008,Laboratory Equipment,Medium,train
+CSV-001025,G0030,Sanitation,High,train
+CSV-001026,G0026,Plumbing,High,train
+CSV-001027,G0030,Sanitation,Medium,train
+CSV-001030,G0003,Furniture,Medium,train
+CSV-001031,G0000,Other,High,train
+CSV-001032,G0030,Sanitation,Low,train
+CSV-001033,G0002,Electrical,Emergency,train
+CSV-001036,G0004,Furniture,Medium,train
+CSV-001039,G0033,Network,High,train
+CSV-001040,G0014,Other,Medium,train
+CSV-001041,G0026,Plumbing,Medium,train
+CSV-001042,G0014,Other,High,train
+CSV-001043,G0022,Network,High,train
+CSV-001044,G0033,Network,Medium,train
+CSV-001046,G0029,Electrical,Medium,train
+CSV-001047,G0032,Sanitation,High,train
+CSV-001053,G0021,Laboratory Equipment,Medium,train
+CSV-001055,G0024,Network,Low,train
+CSV-001058,G0024,Network,Medium,train
+CSV-001059,G0029,Electrical,Low,train
+CSV-001060,G0003,Furniture,Medium,train
+CSV-001061,G0027,Plumbing,High,train
+CSV-001063,G0034,Furniture,Medium,train
+CSV-001064,G0013,Network,Low,train
+CSV-001065,G0032,Sanitation,Medium,train
+CSV-001066,G0011,Other,Low,train
+CSV-001067,G0034,Furniture,Medium,train
+CSV-001068,G0011,Other,Low,train
+CSV-001069,G0029,Electrical,High,train
+CSV-001070,G0030,Sanitation,Medium,train
+CSV-001071,G0011,Other,Medium,train
+CSV-001072,G0004,Furniture,Low,train
+CSV-001073,G0033,Network,Low,train
+CSV-001074,G0013,Network,Medium,train
+CSV-001076,G0021,Laboratory Equipment,High,train
+CSV-001077,G0008,Laboratory Equipment,Low,train
+CSV-001078,G0015,Laboratory Equipment,Low,train
+CSV-001079,G0025,Electrical,High,train
+CSV-001080,G0000,Other,Medium,train
+CSV-001082,G0013,Network,High,train
+CSV-001085,G0019,Plumbing,Emergency,train
+CSV-001086,G0030,Sanitation,Medium,train
+CSV-001087,G0019,Plumbing,Emergency,train
+CSV-001088,G0015,Laboratory Equipment,Medium,train
+CSV-001090,G0004,Furniture,Medium,train
+CSV-001093,G0004,Furniture,Low,train
+CSV-001094,G0023,Sanitation,High,train
+CSV-001095,G0007,Plumbing,High,train
+CSV-001096,G0020,Electrical,Medium,train
+CSV-001097,G0003,Furniture,Medium,train
+CSV-001098,G0014,Other,Medium,train
+CSV-001099,G0003,Furniture,Medium,train
+CSV-001101,G0029,Electrical,Low,train
+CSV-001102,G0020,Electrical,High,train
+CSV-001103,G0018,Laboratory Equipment,High,train
+CSV-001104,G0025,Electrical,Emergency,train
+CSV-001106,G0023,Sanitation,High,train
+CSV-001109,G0018,Laboratory Equipment,Medium,train
+CSV-001110,G0001,Furniture,Medium,train
+CSV-001113,G0022,Network,Medium,train
+CSV-001114,G0021,Laboratory Equipment,Medium,train
+CSV-001116,G0025,Electrical,High,train
+CSV-001117,G0033,Network,High,train
+CSV-001118,G0022,Network,High,train
+CSV-001119,G0013,Network,Medium,train
+CSV-001120,G0025,Electrical,Emergency,train
+CSV-001121,G0024,Network,High,train
+CSV-001123,G0022,Network,High,train
+CSV-001124,G0020,Electrical,Medium,train
+CSV-001125,G0019,Plumbing,Emergency,train
+CSV-001127,G0023,Sanitation,Medium,train
+CSV-001128,G0026,Plumbing,Medium,train
+CSV-001129,G0001,Furniture,Low,train
+CSV-001131,G0027,Plumbing,High,train
+CSV-001133,G0019,Plumbing,Emergency,train
+CSV-001134,G0030,Sanitation,Medium,train
+CSV-001135,G0027,Plumbing,Medium,train
+CSV-001136,G0002,Electrical,Emergency,train
+CSV-001137,G0003,Furniture,High,train
+CSV-001138,G0024,Network,High,train
+CSV-001139,G0025,Electrical,Emergency,train
+CSV-001140,G0002,Electrical,Emergency,train
+CSV-001141,G0025,Electrical,Emergency,train
+CSV-001142,G0020,Electrical,High,train
+CSV-001144,G0020,Electrical,Low,train
+CSV-001145,G0014,Other,Low,train
+CSV-001147,G0001,Furniture,Medium,train
+CSV-001148,G0000,Other,Medium,train
+CSV-001149,G0015,Laboratory Equipment,Medium,train
+CSV-001150,G0020,Electrical,Medium,train
+CSV-001151,G0013,Network,Low,train
+CSV-001152,G0025,Electrical,Emergency,train
+CSV-001154,G0021,Laboratory Equipment,Medium,train
+CSV-001155,G0028,Sanitation,Medium,train
+CSV-001156,G0013,Network,Medium,train
+CSV-001157,G0001,Furniture,Low,train
+CSV-001158,G0033,Network,Medium,train
+CSV-001159,G0019,Plumbing,Emergency,train
+CSV-001160,G0006,Other,Low,train
+CSV-001161,G0020,Electrical,High,train
+CSV-001163,G0020,Electrical,Medium,train
+CSV-001164,G0030,Sanitation,Low,train
+CSV-001166,G0022,Network,Medium,train
+CSV-001168,G0022,Network,Low,train
+CSV-001169,G0030,Sanitation,High,train
+CSV-001170,G0013,Network,High,train
+CSV-001171,G0032,Sanitation,High,train
+CSV-001173,G0015,Laboratory Equipment,High,train
+CSV-001174,G0024,Network,Medium,train
+CSV-001176,G0024,Network,High,train
+CSV-001178,G0023,Sanitation,Medium,train
+CSV-001179,G0033,Network,Medium,train
+CSV-001182,G0025,Electrical,High,train
+CSV-001183,G0032,Sanitation,High,train
+CSV-001184,G0028,Sanitation,Low,train
+CSV-001187,G0034,Furniture,Medium,train
+CSV-001188,G0022,Network,Low,train
+CSV-001191,G0019,Plumbing,Emergency,train
+CSV-001192,G0024,Network,Medium,train
+CSV-001194,G0001,Furniture,High,train
+CSV-001195,G0001,Furniture,Medium,train
+CSV-001197,G0030,Sanitation,Medium,train
+CSV-001198,G0032,Sanitation,Medium,train
+CSV-001200,G0001,Furniture,Medium,train
+CSV-001201,G0027,Plumbing,Medium,train
+CSV-001202,G0032,Sanitation,Low,train
+CSV-001203,G0023,Sanitation,Medium,train
+CSV-001206,G0034,Furniture,Medium,train
+CSV-001207,G0023,Sanitation,Medium,train
+CSV-001208,G0006,Other,Medium,train
+CSV-001209,G0032,Sanitation,Medium,train
+CSV-001211,G0024,Network,High,train
+CSV-001214,G0023,Sanitation,Medium,train
+CSV-001215,G0032,Sanitation,Medium,train
+CSV-001216,G0027,Plumbing,High,train
+CSV-001218,G0004,Furniture,Low,train
+CSV-001221,G0006,Other,Low,train
+CSV-001222,G0032,Sanitation,Low,train
+CSV-001224,G0025,Electrical,Emergency,train
+CSV-001225,G0033,Network,Medium,train
+CSV-001228,G0034,Furniture,Low,train
+CSV-001229,G0026,Plumbing,Low,train
+CSV-001232,G0022,Network,Medium,train
+CSV-001233,G0003,Furniture,Medium,train
+CSV-001234,G0003,Furniture,High,train
+CSV-001237,G0001,Furniture,High,train
+CSV-001238,G0018,Laboratory Equipment,Medium,train
+CSV-001241,G0027,Plumbing,High,train
+CSV-001244,G0008,Laboratory Equipment,Low,train
+CSV-001245,G0027,Plumbing,Medium,train
+CSV-001247,G0022,Network,High,train
+CSV-001248,G0032,Sanitation,Medium,train
+CSV-001249,G0003,Furniture,High,train
+CSV-001250,G0011,Other,Low,train
+CSV-001251,G0007,Plumbing,High,train
+CSV-001253,G0002,Electrical,Emergency,train
+CSV-001254,G0019,Plumbing,High,train
+CSV-001255,G0030,Sanitation,Low,train
+CSV-001258,G0001,Furniture,Medium,train
+CSV-001259,G0024,Network,Medium,train
+CSV-001260,G0019,Plumbing,Emergency,train
+CSV-001262,G0025,Electrical,High,train
+CSV-001263,G0007,Plumbing,High,train
+CSV-001264,G0003,Furniture,Medium,train
+CSV-001265,G0025,Electrical,High,train
+CSV-001266,G0020,Electrical,Medium,train
+CSV-001270,G0006,Other,Medium,train
+CSV-001271,G0022,Network,Medium,train
+CSV-001272,G0008,Laboratory Equipment,Low,train
+CSV-001273,G0025,Electrical,Emergency,train
+CSV-001276,G0025,Electrical,Emergency,train
+CSV-001277,G0021,Laboratory Equipment,High,train
+CSV-001279,G0014,Other,Low,train
+CSV-001281,G0006,Other,Medium,train
+CSV-001282,G0018,Laboratory Equipment,Low,train
+CSV-001283,G0030,Sanitation,Low,train
+CSV-001284,G0003,Furniture,Medium,train
+CSV-001285,G0015,Laboratory Equipment,Medium,train
+CSV-001286,G0002,Electrical,High,train
+CSV-001287,G0026,Plumbing,Medium,train
+CSV-001288,G0020,Electrical,High,train
+CSV-001290,G0034,Furniture,Medium,train
+CSV-001291,G0025,Electrical,High,train
+CSV-001292,G0022,Network,High,train
+CSV-001293,G0023,Sanitation,Medium,train
+CSV-001294,G0000,Other,Low,train
+CSV-001295,G0026,Plumbing,Medium,train
+CSV-001296,G0026,Plumbing,Medium,train
+CSV-001297,G0023,Sanitation,Medium,train
+CSV-001298,G0034,Furniture,Low,train
+CSV-001300,G0002,Electrical,High,train
+CSV-001301,G0003,Furniture,High,train
+CSV-001302,G0030,Sanitation,High,train
+CSV-001303,G0021,Laboratory Equipment,High,train
+CSV-001306,G0004,Furniture,Medium,train
+CSV-001307,G0022,Network,Low,train
+CSV-001308,G0013,Network,Low,train
+CSV-001310,G0014,Other,High,train
+CSV-001311,G0014,Other,High,train
+CSV-001313,G0008,Laboratory Equipment,High,train
+CSV-001314,G0007,Plumbing,High,train
+CSV-001315,G0019,Plumbing,Emergency,train
+CSV-001316,G0003,Furniture,High,train
+CSV-001317,G0022,Network,Medium,train
+CSV-001318,G0028,Sanitation,Low,train
+CSV-001320,G0033,Network,Medium,train
+CSV-001321,G0034,Furniture,High,train
+CSV-001323,G0001,Furniture,Medium,train
+CSV-001324,G0028,Sanitation,Medium,train
+CSV-001325,G0029,Electrical,Low,train
+CSV-001326,G0029,Electrical,Medium,train
+CSV-001327,G0019,Plumbing,Emergency,train
+CSV-001328,G0029,Electrical,Low,train
+CSV-001330,G0018,Laboratory Equipment,Medium,train
+CSV-001331,G0019,Plumbing,Emergency,train
+CSV-001333,G0023,Sanitation,Medium,train
+CSV-001334,G0029,Electrical,High,train
+CSV-001335,G0023,Sanitation,Low,train
+CSV-001336,G0026,Plumbing,Medium,train
+CSV-001337,G0022,Network,High,train
+CSV-001338,G0013,Network,High,train
+CSV-001339,G0004,Furniture,Low,train
+CSV-001343,G0028,Sanitation,Medium,train
+CSV-001346,G0004,Furniture,High,train
+CSV-001348,G0018,Laboratory Equipment,Low,train
+CSV-001349,G0015,Laboratory Equipment,High,train
+CSV-001350,G0019,Plumbing,Emergency,train
+CSV-001351,G0020,Electrical,Medium,train
+CSV-001353,G0007,Plumbing,High,train
+CSV-001354,G0028,Sanitation,High,train
+CSV-001355,G0028,Sanitation,Medium,train
+CSV-001356,G0007,Plumbing,High,train
+CSV-001357,G0023,Sanitation,Low,train
+CSV-001359,G0013,Network,Medium,train
+CSV-001360,G0026,Plumbing,Low,train
+CSV-001361,G0007,Plumbing,Medium,train
+CSV-001362,G0022,Network,Low,train
+CSV-001365,G0022,Network,Low,train
+CSV-001366,G0028,Sanitation,Medium,train
+CSV-001367,G0024,Network,Medium,train
+CSV-001368,G0019,Plumbing,High,train
+CSV-001370,G0000,Other,Low,train
+CSV-001373,G0020,Electrical,High,train
+CSV-001375,G0002,Electrical,Emergency,train
+CSV-001376,G0003,Furniture,High,train
+CSV-001377,G0000,Other,Low,train
+CSV-001378,G0027,Plumbing,High,train
+CSV-001380,G0027,Plumbing,Low,train
+CSV-001381,G0020,Electrical,Medium,train
+CSV-001382,G0034,Furniture,Low,train
+CSV-001384,G0022,Network,Medium,train
+CSV-001385,G0028,Sanitation,Low,train
+CSV-001386,G0030,Sanitation,Low,train
+CSV-001387,G0018,Laboratory Equipment,High,train
+CSV-001389,G0023,Sanitation,Low,train
+CSV-001392,G0025,Electrical,Emergency,train
+CSV-001394,G0024,Network,Low,train
+CSV-001396,G0007,Plumbing,Low,train
+CSV-001397,G0002,Electrical,Emergency,train
+CSV-001398,G0014,Other,Medium,train
+CSV-001399,G0002,Electrical,High,train
+CSV-001401,G0008,Laboratory Equipment,Medium,train
+CSV-001403,G0014,Other,High,train
+CSV-001404,G0013,Network,High,train
+CSV-001405,G0000,Other,High,train
+CSV-001407,G0004,Furniture,Medium,train
+CSV-001408,G0020,Electrical,Medium,train
+CSV-001411,G0021,Laboratory Equipment,Medium,train
+CSV-001413,G0007,Plumbing,High,train
+CSV-001415,G0014,Other,Low,train
+CSV-001416,G0026,Plumbing,Low,train
+CSV-001418,G0019,Plumbing,High,train
+CSV-001420,G0027,Plumbing,High,train
+CSV-001421,G0033,Network,Medium,train
+CSV-001423,G0024,Network,Medium,train
+CSV-001424,G0029,Electrical,Low,train
+CSV-001425,G0023,Sanitation,High,train
+CSV-001426,G0023,Sanitation,Medium,train
+CSV-001427,G0002,Electrical,Emergency,train
+CSV-001428,G0028,Sanitation,Low,train
+CSV-001429,G0020,Electrical,Low,train
+CSV-001430,G0013,Network,Medium,train
+CSV-001431,G0030,Sanitation,Low,train
+CSV-001432,G0020,Electrical,Medium,train
+CSV-001433,G0033,Network,Medium,train
+CSV-001435,G0020,Electrical,Medium,train
+CSV-001437,G0033,Network,Medium,train
+CSV-001438,G0022,Network,High,train
+CSV-001439,G0018,Laboratory Equipment,High,train
+CSV-001440,G0020,Electrical,Low,train
+CSV-001442,G0024,Network,Medium,train
+CSV-001445,G0032,Sanitation,Low,train
+CSV-001446,G0008,Laboratory Equipment,Low,train
+CSV-001449,G0000,Other,Medium,train
+CSV-001450,G0013,Network,High,train
+CSV-001451,G0033,Network,High,train
+CSV-001452,G0004,Furniture,Medium,train
+CSV-001453,G0027,Plumbing,High,train
+CSV-001454,G0032,Sanitation,Low,train
+CSV-001455,G0024,Network,Medium,train
+CSV-001456,G0013,Network,Medium,train
+CSV-001459,G0018,Laboratory Equipment,Medium,train
+CSV-001460,G0027,Plumbing,High,train
+CSV-001462,G0003,Furniture,Low,train
+CSV-001463,G0033,Network,Low,train
+CSV-001464,G0004,Furniture,Medium,train
+CSV-001466,G0015,Laboratory Equipment,High,train
+CSV-001467,G0004,Furniture,Low,train
+CSV-001468,G0002,Electrical,Emergency,train
+CSV-001470,G0028,Sanitation,Low,train
+CSV-001471,G0033,Network,Low,train
+CSV-001472,G0007,Plumbing,Low,train
+CSV-001473,G0030,Sanitation,High,train
+CSV-001474,G0013,Network,Medium,train
+CSV-001475,G0024,Network,Medium,train
+CSV-001476,G0022,Network,High,train
+CSV-001477,G0019,Plumbing,Emergency,train
+CSV-001481,G0026,Plumbing,High,train
+CSV-001482,G0008,Laboratory Equipment,Low,train
+CSV-001484,G0030,Sanitation,Low,train
+CSV-001485,G0034,Furniture,High,train
+CSV-001487,G0029,Electrical,Medium,train
+CSV-001488,G0002,Electrical,High,train
+CSV-001489,G0025,Electrical,Emergency,train
+CSV-001490,G0026,Plumbing,High,train
+CSV-001491,G0027,Plumbing,High,train
+CSV-001492,G0002,Electrical,Emergency,train
+CSV-001493,G0025,Electrical,Emergency,train
+CSV-001494,G0024,Network,Low,train
+CSV-001496,G0002,Electrical,High,train
+CSV-001499,G0026,Plumbing,Medium,train
+CSV-001500,G0027,Plumbing,Medium,train
+CSV-001501,G0026,Plumbing,Low,train
+CSV-000009,G0009,Electrical,Medium,test
+CSV-000011,G0009,Electrical,Low,test
+CSV-000016,G0010,Sanitation,Medium,test
+CSV-000022,G0016,Network,Emergency,test
+CSV-000025,G0005,Furniture,Low,test
+CSV-000032,G0009,Electrical,High,test
+CSV-000033,G0017,Other,High,test
+CSV-000037,G0017,Other,Medium,test
+CSV-000047,G0031,Plumbing,Medium,test
+CSV-000049,G0010,Sanitation,High,test
+CSV-000051,G0017,Other,Medium,test
+CSV-000054,G0005,Furniture,Medium,test
+CSV-000055,G0009,Electrical,High,test
+CSV-000079,G0016,Network,High,test
+CSV-000085,G0031,Plumbing,Medium,test
+CSV-000092,G0016,Network,Emergency,test
+CSV-000103,G0016,Network,Emergency,test
+CSV-000106,G0031,Plumbing,Medium,test
+CSV-000108,G0009,Electrical,High,test
+CSV-000118,G0005,Furniture,Low,test
+CSV-000126,G0016,Network,High,test
+CSV-000158,G0010,Sanitation,Low,test
+CSV-000159,G0005,Furniture,Low,test
+CSV-000161,G0009,Electrical,High,test
+CSV-000170,G0017,Other,Medium,test
+CSV-000171,G0005,Furniture,Medium,test
+CSV-000172,G0009,Electrical,High,test
+CSV-000177,G0016,Network,Emergency,test
+CSV-000185,G0012,Laboratory Equipment,Medium,test
+CSV-000198,G0031,Plumbing,High,test
+CSV-000199,G0031,Plumbing,Medium,test
+CSV-000200,G0010,Sanitation,Medium,test
+CSV-000203,G0016,Network,High,test
+CSV-000211,G0009,Electrical,High,test
+CSV-000221,G0031,Plumbing,Low,test
+CSV-000222,G0012,Laboratory Equipment,Medium,test
+CSV-000225,G0016,Network,Emergency,test
+CSV-000230,G0005,Furniture,Low,test
+CSV-000239,G0010,Sanitation,Medium,test
+CSV-000245,G0031,Plumbing,Low,test
+CSV-000253,G0009,Electrical,Low,test
+CSV-000255,G0016,Network,High,test
+CSV-000261,G0017,Other,Medium,test
+CSV-000272,G0005,Furniture,Medium,test
+CSV-000290,G0005,Furniture,High,test
+CSV-000292,G0031,Plumbing,High,test
+CSV-000295,G0010,Sanitation,Medium,test
+CSV-000298,G0005,Furniture,Medium,test
+CSV-000311,G0016,Network,High,test
+CSV-000314,G0016,Network,Emergency,test
+CSV-000318,G0009,Electrical,Medium,test
+CSV-000322,G0031,Plumbing,Medium,test
+CSV-000332,G0010,Sanitation,Medium,test
+CSV-000334,G0031,Plumbing,Low,test
+CSV-000343,G0012,Laboratory Equipment,Medium,test
+CSV-000351,G0031,Plumbing,High,test
+CSV-000352,G0016,Network,High,test
+CSV-000354,G0009,Electrical,High,test
+CSV-000360,G0005,Furniture,High,test
+CSV-000364,G0031,Plumbing,Low,test
+CSV-000372,G0005,Furniture,Low,test
+CSV-000377,G0005,Furniture,Low,test
+CSV-000383,G0009,Electrical,Medium,test
+CSV-000389,G0012,Laboratory Equipment,High,test
+CSV-000392,G0009,Electrical,Low,test
+CSV-000393,G0005,Furniture,Low,test
+CSV-000401,G0031,Plumbing,Medium,test
+CSV-000402,G0031,Plumbing,Low,test
+CSV-000404,G0005,Furniture,Low,test
+CSV-000405,G0031,Plumbing,High,test
+CSV-000406,G0017,Other,Medium,test
+CSV-000410,G0005,Furniture,Low,test
+CSV-000411,G0012,Laboratory Equipment,Medium,test
+CSV-000430,G0017,Other,Low,test
+CSV-000434,G0009,Electrical,High,test
+CSV-000453,G0012,Laboratory Equipment,High,test
+CSV-000454,G0031,Plumbing,High,test
+CSV-000455,G0012,Laboratory Equipment,Low,test
+CSV-000461,G0010,Sanitation,Medium,test
+CSV-000464,G0031,Plumbing,Medium,test
+CSV-000473,G0017,Other,Medium,test
+CSV-000479,G0010,Sanitation,Medium,test
+CSV-000481,G0016,Network,Emergency,test
+CSV-000484,G0016,Network,Emergency,test
+CSV-000488,G0009,Electrical,Low,test
+CSV-000492,G0012,Laboratory Equipment,Medium,test
+CSV-000494,G0009,Electrical,High,test
+CSV-000495,G0031,Plumbing,High,test
+CSV-000499,G0031,Plumbing,Medium,test
+CSV-000506,G0005,Furniture,Low,test
+CSV-000520,G0005,Furniture,Low,test
+CSV-000522,G0009,Electrical,High,test
+CSV-000523,G0016,Network,Emergency,test
+CSV-000525,G0009,Electrical,Medium,test
+CSV-000527,G0016,Network,High,test
+CSV-000536,G0017,Other,Medium,test
+CSV-000553,G0010,Sanitation,Medium,test
+CSV-000554,G0005,Furniture,Low,test
+CSV-000564,G0012,Laboratory Equipment,Medium,test
+CSV-000571,G0012,Laboratory Equipment,Low,test
+CSV-000576,G0012,Laboratory Equipment,Medium,test
+CSV-000581,G0009,Electrical,High,test
+CSV-000592,G0031,Plumbing,High,test
+CSV-000602,G0031,Plumbing,Medium,test
+CSV-000609,G0005,Furniture,Medium,test
+CSV-000614,G0031,Plumbing,High,test
+CSV-000616,G0016,Network,Emergency,test
+CSV-000617,G0017,Other,Medium,test
+CSV-000622,G0016,Network,Emergency,test
+CSV-000629,G0009,Electrical,High,test
+CSV-000634,G0009,Electrical,Medium,test
+CSV-000636,G0010,Sanitation,Low,test
+CSV-000639,G0012,Laboratory Equipment,Medium,test
+CSV-000651,G0009,Electrical,High,test
+CSV-000652,G0031,Plumbing,Medium,test
+CSV-000654,G0005,Furniture,Medium,test
+CSV-000663,G0009,Electrical,High,test
+CSV-000664,G0010,Sanitation,Low,test
+CSV-000672,G0031,Plumbing,Low,test
+CSV-000675,G0012,Laboratory Equipment,Medium,test
+CSV-000676,G0012,Laboratory Equipment,Medium,test
+CSV-000677,G0005,Furniture,Medium,test
+CSV-000678,G0010,Sanitation,Low,test
+CSV-000681,G0016,Network,High,test
+CSV-000683,G0031,Plumbing,Medium,test
+CSV-000691,G0009,Electrical,Low,test
+CSV-000699,G0017,Other,High,test
+CSV-000703,G0012,Laboratory Equipment,High,test
+CSV-000704,G0009,Electrical,High,test
+CSV-000708,G0016,Network,Emergency,test
+CSV-000710,G0016,Network,Emergency,test
+CSV-000712,G0010,Sanitation,Medium,test
+CSV-000716,G0009,Electrical,High,test
+CSV-000717,G0010,Sanitation,Low,test
+CSV-000722,G0016,Network,High,test
+CSV-000738,G0031,Plumbing,Medium,test
+CSV-000740,G0017,Other,High,test
+CSV-000743,G0009,Electrical,Medium,test
+CSV-000751,G0012,Laboratory Equipment,High,test
+CSV-000757,G0010,Sanitation,Medium,test
+CSV-000774,G0016,Network,High,test
+CSV-000776,G0017,Other,Low,test
+CSV-000780,G0009,Electrical,High,test
+CSV-000792,G0012,Laboratory Equipment,Low,test
+CSV-000794,G0009,Electrical,High,test
+CSV-000798,G0009,Electrical,Low,test
+CSV-000811,G0012,Laboratory Equipment,Medium,test
+CSV-000818,G0016,Network,Emergency,test
+CSV-000828,G0012,Laboratory Equipment,High,test
+CSV-000830,G0010,Sanitation,Medium,test
+CSV-000837,G0016,Network,Emergency,test
+CSV-000839,G0016,Network,Emergency,test
+CSV-000840,G0009,Electrical,Medium,test
+CSV-000841,G0012,Laboratory Equipment,Low,test
+CSV-000845,G0031,Plumbing,Low,test
+CSV-000847,G0010,Sanitation,Low,test
+CSV-000859,G0010,Sanitation,Low,test
+CSV-000861,G0009,Electrical,Low,test
+CSV-000871,G0009,Electrical,Medium,test
+CSV-000872,G0010,Sanitation,High,test
+CSV-000875,G0016,Network,Emergency,test
+CSV-000877,G0010,Sanitation,High,test
+CSV-000889,G0012,Laboratory Equipment,Low,test
+CSV-000902,G0012,Laboratory Equipment,Medium,test
+CSV-000912,G0010,Sanitation,Medium,test
+CSV-000917,G0010,Sanitation,Low,test
+CSV-000925,G0005,Furniture,Low,test
+CSV-000930,G0016,Network,High,test
+CSV-000932,G0009,Electrical,High,test
+CSV-000937,G0010,Sanitation,Medium,test
+CSV-000947,G0012,Laboratory Equipment,Low,test
+CSV-000953,G0012,Laboratory Equipment,Low,test
+CSV-000958,G0031,Plumbing,High,test
+CSV-000969,G0012,Laboratory Equipment,Medium,test
+CSV-000975,G0005,Furniture,Medium,test
+CSV-000977,G0010,Sanitation,Low,test
+CSV-000979,G0009,Electrical,Medium,test
+CSV-000983,G0010,Sanitation,Low,test
+CSV-000989,G0005,Furniture,Low,test
+CSV-000995,G0031,Plumbing,Medium,test
+CSV-000997,G0010,Sanitation,High,test
+CSV-001014,G0005,Furniture,Low,test
+CSV-001029,G0009,Electrical,Medium,test
+CSV-001038,G0031,Plumbing,High,test
+CSV-001045,G0016,Network,Emergency,test
+CSV-001048,G0016,Network,High,test
+CSV-001049,G0031,Plumbing,Medium,test
+CSV-001051,G0016,Network,Emergency,test
+CSV-001052,G0016,Network,High,test
+CSV-001056,G0016,Network,Emergency,test
+CSV-001057,G0010,Sanitation,Low,test
+CSV-001075,G0009,Electrical,Medium,test
+CSV-001083,G0010,Sanitation,Medium,test
+CSV-001084,G0016,Network,High,test
+CSV-001091,G0005,Furniture,Low,test
+CSV-001100,G0016,Network,Emergency,test
+CSV-001105,G0010,Sanitation,High,test
+CSV-001107,G0031,Plumbing,High,test
+CSV-001108,G0031,Plumbing,Medium,test
+CSV-001111,G0010,Sanitation,High,test
+CSV-001112,G0005,Furniture,High,test
+CSV-001115,G0005,Furniture,Low,test
+CSV-001126,G0031,Plumbing,Medium,test
+CSV-001132,G0009,Electrical,Medium,test
+CSV-001143,G0012,Laboratory Equipment,Low,test
+CSV-001162,G0010,Sanitation,Medium,test
+CSV-001167,G0005,Furniture,Medium,test
+CSV-001177,G0005,Furniture,Low,test
+CSV-001180,G0010,Sanitation,Low,test
+CSV-001181,G0009,Electrical,Medium,test
+CSV-001186,G0005,Furniture,High,test
+CSV-001190,G0031,Plumbing,Medium,test
+CSV-001193,G0031,Plumbing,Medium,test
+CSV-001204,G0012,Laboratory Equipment,Low,test
+CSV-001217,G0009,Electrical,Medium,test
+CSV-001219,G0005,Furniture,Medium,test
+CSV-001220,G0016,Network,Emergency,test
+CSV-001223,G0017,Other,Low,test
+CSV-001235,G0009,Electrical,High,test
+CSV-001236,G0031,Plumbing,High,test
+CSV-001240,G0031,Plumbing,High,test
+CSV-001246,G0009,Electrical,High,test
+CSV-001257,G0012,Laboratory Equipment,Low,test
+CSV-001261,G0012,Laboratory Equipment,Medium,test
+CSV-001289,G0010,Sanitation,Medium,test
+CSV-001299,G0009,Electrical,Low,test
+CSV-001304,G0005,Furniture,Medium,test
+CSV-001312,G0005,Furniture,Low,test
+CSV-001319,G0012,Laboratory Equipment,Medium,test
+CSV-001322,G0031,Plumbing,High,test
+CSV-001329,G0010,Sanitation,Low,test
+CSV-001340,G0016,Network,Emergency,test
+CSV-001341,G0009,Electrical,Medium,test
+CSV-001347,G0009,Electrical,Medium,test
+CSV-001358,G0005,Furniture,Low,test
+CSV-001363,G0012,Laboratory Equipment,Low,test
+CSV-001364,G0017,Other,Medium,test
+CSV-001371,G0005,Furniture,Medium,test
+CSV-001372,G0017,Other,High,test
+CSV-001374,G0012,Laboratory Equipment,Medium,test
+CSV-001383,G0009,Electrical,Medium,test
+CSV-001388,G0010,Sanitation,Low,test
+CSV-001391,G0017,Other,High,test
+CSV-001393,G0005,Furniture,Medium,test
+CSV-001400,G0031,Plumbing,Medium,test
+CSV-001402,G0031,Plumbing,Medium,test
+CSV-001409,G0010,Sanitation,Low,test
+CSV-001410,G0010,Sanitation,Medium,test
+CSV-001414,G0017,Other,Medium,test
+CSV-001417,G0009,Electrical,Low,test
+CSV-001419,G0005,Furniture,Medium,test
+CSV-001422,G0016,Network,Emergency,test
+CSV-001436,G0016,Network,Emergency,test
+CSV-001441,G0005,Furniture,Low,test
+CSV-001443,G0009,Electrical,High,test
+CSV-001447,G0017,Other,Medium,test
+CSV-001448,G0009,Electrical,Medium,test
+CSV-001457,G0010,Sanitation,Medium,test
+CSV-001458,G0017,Other,High,test
+CSV-001465,G0017,Other,High,test
+CSV-001478,G0009,Electrical,High,test
+CSV-001480,G0005,Furniture,Low,test
+CSV-001483,G0031,Plumbing,High,test
+CSV-001486,G0009,Electrical,Medium,test
+CSV-001495,G0010,Sanitation,Medium,test
+CSV-001497,G0012,Laboratory Equipment,Low,test

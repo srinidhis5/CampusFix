@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Reports</h1>
+<form class="row g-2 mb-3">
+  <div class="col-md"><input class="form-control" type="date" name="start"></div>
+  <div class="col-md"><input class="form-control" type="date" name="end"></div>
+  <div class="col-md-auto"><button class="btn btn-primary">Apply</button></div>
+  <div class="col-md-auto"><a class="btn btn-outline-primary" href="{{ url_for('admin.export_csv', **request.args) }}">Export CSV</a></div>
+</form>
+<div class="row g-3 mb-3"><div class="col"><div class="card card-body">Total complaints <strong>{{ total }}</strong></div></div><div class="col"><div class="card card-body">Average rating <strong>{{ avg_rating }}</strong></div></div><div class="col"><div class="card card-body">Overdue <strong>{{ overdue }}</strong></div></div></div>
+{% for title, data in [('Category breakdown', category), ('Status breakdown', status), ('Priority breakdown', priority), ('Complaints by building', buildings)] %}
+<h2>{{ title }}</h2><table class="table bg-white">{% for k, v in data.items() %}<tr><td>{{ k }}</td><td>{{ v }}</td></tr>{% endfor %}</table>
+{% endfor %}
+<h2>Staff workload</h2><table class="table bg-white">{% for id, name, email, count in workload %}<tr><td>{{ name }}</td><td>{{ count }}</td></tr>{% endfor %}</table>
+{% endblock %}

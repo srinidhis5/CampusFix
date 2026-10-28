@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Feedback for {{ complaint.reference_number }}</h1>
+<form method="post" class="card card-body form-narrow">
+  {{ form.hidden_tag() }}
+  {% include "_form_fields.html" %}
+</form>
+{% endblock %}

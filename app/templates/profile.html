@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Profile</h1>
+<div class="card card-body">
+  <div class="profile-grid">
+    <div><span class="text-muted">Name</span><strong>{{ current_user.full_name }}</strong></div>
+    <div><span class="text-muted">Email</span><strong>{{ current_user.email }}</strong></div>
+    <div><span class="text-muted">Role</span><strong>{{ current_user.role|title }}</strong></div>
+    <div><span class="text-muted">Department</span><strong>{{ current_user.department or 'Not added' }}</strong></div>
+    <div><span class="text-muted">Phone</span><strong>{{ current_user.phone or 'Not added' }}</strong></div>
+    <div><span class="text-muted">Account status</span><strong>{{ 'Active' if current_user.is_active else 'Inactive' }}</strong></div>
+    <div><span class="text-muted">Joined</span><strong>{{ current_user.created_at.strftime('%Y-%m-%d') }}</strong></div>
+    <div><span class="text-muted">Reported complaints</span><strong>{{ current_user.reported_complaints|length }}</strong></div>
+    <div><span class="text-muted">Assigned complaints</span><strong>{{ current_user.assigned_complaints|length }}</strong></div>
+    <div><span class="text-muted">Unread notifications</span><strong>{{ current_user.notifications|selectattr('is_read', 'equalto', false)|list|length }}</strong></div>
+  </div>
+</div>
+{% endblock %}

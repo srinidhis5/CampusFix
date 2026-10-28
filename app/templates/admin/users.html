@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>User management</h1>
+<a class="btn btn-primary mb-3" href="{{ url_for('admin.create_maintenance') }}">Create maintenance account</a>
+<table class="table bg-white"><tr><th>Name</th><th>Email</th><th>Role</th><th>Department</th><th>Active</th><th></th></tr>
+{% for u in users %}<tr><td>{{ u.full_name }}</td><td>{{ u.email }}</td><td>{{ u.role }}</td><td>{{ u.department }}</td><td>{{ 'Yes' if u.is_active else 'No' }}</td><td><form method="post" action="{{ url_for('admin.toggle_user', user_id=u.id) }}"><input type="hidden" name="csrf_token" value="{{ csrf_token() }}"><button class="btn btn-sm btn-outline-primary" onclick="return confirm('Change this user status?')">Activate/deactivate</button></form></td></tr>{% endfor %}
+</table>
+{% endblock %}

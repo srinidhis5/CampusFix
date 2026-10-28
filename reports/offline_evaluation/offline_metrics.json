@@ -1,0 +1,116 @@
+{
+  "source": "Offline evaluation only; website metrics unchanged",
+  "targets": {
+    "category": {
+      "model": "Linear SVM",
+      "accuracy": 0.5413533834586466,
+      "macro_precision": 0.40475415174210355,
+      "macro_recall": 0.5309214594928882,
+      "macro_f1": 0.4345094796910082,
+      "cv_macro_f1_mean": 0.2570270281240555,
+      "cv_macro_f1_std": 0.030776599357039264,
+      "selected": true,
+      "selected_model": "Linear SVM",
+      "comparisons": [
+        {
+          "model": "Logistic Regression",
+          "accuracy": 0.47368421052631576,
+          "macro_precision": 0.41310751104565535,
+          "macro_recall": 0.4539270253555968,
+          "macro_f1": 0.37742866930945035,
+          "cv_macro_f1_mean": 0.23794090835748374,
+          "cv_macro_f1_std": 0.07992010921601692,
+          "selected": false
+        },
+        {
+          "model": "Multinomial Naive Bayes",
+          "accuracy": 0.42857142857142855,
+          "macro_precision": 0.2786214242239805,
+          "macro_recall": 0.40476190476190477,
+          "macro_f1": 0.32066121008786685,
+          "cv_macro_f1_mean": 0.24399337034027768,
+          "cv_macro_f1_std": 0.05638341023092697,
+          "selected": false
+        },
+        {
+          "model": "Linear SVM",
+          "accuracy": 0.5413533834586466,
+          "macro_precision": 0.40475415174210355,
+          "macro_recall": 0.5309214594928882,
+          "macro_f1": 0.4345094796910082,
+          "cv_macro_f1_mean": 0.2570270281240555,
+          "cv_macro_f1_std": 0.030776599357039264,
+          "selected": true
+        },
+        {
+          "model": "Majority baseline",
+          "accuracy": 0.19172932330827067,
+          "macro_precision": 0.02738990332975295,
+          "macro_recall": 0.14285714285714285,
+          "macro_f1": 0.04596665164488508,
+          "cv_macro_f1_mean": 0.034192813949854066,
+          "cv_macro_f1_std": 0.0010628897242748892,
+          "selected": false
+        }
+      ]
+    },
+    "priority": {
+      "model": "Linear SVM",
+      "accuracy": 0.34962406015037595,
+      "macro_precision": 0.2547441325014855,
+      "macro_recall": 0.25596084051966406,
+      "macro_f1": 0.21960702260702258,
+      "cv_macro_f1_mean": 0.2653071502992568,
+      "cv_macro_f1_std": 0.0028799683146311884,
+      "selected": true,
+      "emergency_recall": 0.0,
+      "selected_model": "Linear SVM",
+      "comparisons": [
+        {
+          "model": "Logistic Regression",
+          "accuracy": 0.3609022556390977,
+          "macro_precision": 0.2503783051927365,
+          "macro_recall": 0.2580785999903647,
+          "macro_f1": 0.20223552652797938,
+          "cv_macro_f1_mean": 0.21862915125574386,
+          "cv_macro_f1_std": 0.006194791138872662,
+          "selected": false,
+          "emergency_recall": 0.0
+        },
+        {
+          "model": "Multinomial Naive Bayes",
+          "accuracy": 0.39097744360902253,
+          "macro_precision": 0.21227297008547008,
+          "macro_recall": 0.2754231504231504,
+          "macro_f1": 0.20438835061476573,
+          "cv_macro_f1_mean": 0.21872189386846816,
+          "cv_macro_f1_std": 0.0027991448195335313,
+          "selected": false,
+          "emergency_recall": 0.0
+        },
+        {
+          "model": "Linear SVM",
+          "accuracy": 0.34962406015037595,
+          "macro_precision": 0.2547441325014855,
+          "macro_recall": 0.25596084051966406,
+          "macro_f1": 0.21960702260702258,
+          "cv_macro_f1_mean": 0.2653071502992568,
+          "cv_macro_f1_std": 0.0028799683146311884,
+          "selected": true,
+          "emergency_recall": 0.0
+        },
+        {
+          "model": "Majority baseline",
+          "accuracy": 0.37218045112781956,
+          "macro_precision": 0.09304511278195489,
+          "macro_recall": 0.25,
+          "macro_f1": 0.13561643835616438,
+          "cv_macro_f1_mean": 0.1409526297457332,
+          "cv_macro_f1_std": 0.003492086127292992,
+          "selected": false,
+          "emergency_recall": 0.0
+        }
+      ]
+    }
+  }
+}

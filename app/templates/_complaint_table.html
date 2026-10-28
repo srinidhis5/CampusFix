@@ -1,0 +1,27 @@
+{% if complaints %}
+<div class="table-responsive">
+<table class="table table-hover align-middle bg-white">
+  <thead><tr><th>Ref</th><th>Title</th><th>Category</th><th>Priority</th><th>Status</th><th>Location</th><th>Assignee</th><th></th></tr></thead>
+  <tbody>
+  {% for c in complaints %}
+  <tr class="{{ 'table-warning' if c.is_overdue else '' }}">
+    <td>{{ c.reference_number }}</td>
+    <td>{{ c.title }}</td>
+    <td>{{ c.category }}</td>
+    <td><span class="badge priority-{{ c.priority|lower }}">{{ c.priority }}</span></td>
+    <td><span class="badge status">{{ c.status }}</span></td>
+    <td>{{ c.building }} / {{ c.room_location }}</td>
+    <td>{{ c.assignee.full_name if c.assignee else 'Unassigned' }}</td>
+    <td>
+      {% if current_user.role == 'admin' %}<a class="btn btn-sm btn-outline-primary" href="{{ url_for('admin.complaint_detail', complaint_id=c.id) }}">Open</a>{% endif %}
+      {% if current_user.role == 'reporter' %}<a class="btn btn-sm btn-outline-primary" href="{{ url_for('reporter.complaint_detail', complaint_id=c.id) }}">Open</a>{% endif %}
+      {% if current_user.role == 'maintenance' %}<a class="btn btn-sm btn-outline-primary" href="{{ url_for('maintenance.complaint_detail', complaint_id=c.id) }}">Open</a>{% endif %}
+    </td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>
+</div>
+{% else %}
+<p class="empty">No records found.</p>
+{% endif %}

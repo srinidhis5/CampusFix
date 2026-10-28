@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>{{ category }} complaints</h1>
+<div class="row g-3 mb-4">
+  <div class="col-md-4"><div class="card card-body"><span class="text-muted">Total registered</span><strong class="fs-4">{{ total }}</strong></div></div>
+  {% for status, count in status_counts.items() %}
+  <div class="col-md-4 col-6"><div class="card card-body"><span class="text-muted">{{ status }}</span><strong class="fs-4">{{ count }}</strong></div></div>
+  {% endfor %}
+</div>
+<h2>Priority split</h2>
+<div class="coverage-grid mb-4">
+  {% for priority, count in priority_counts.items() %}
+  <div class="coverage-card">
+    <span>{{ priority }}</span>
+    <strong>{{ count }}</strong>
+    <small>Complaints</small>
+  </div>
+  {% endfor %}
+</div>
+<h2>Registered complaints</h2>
+{% include "_complaint_table.html" %}
+{% endblock %}

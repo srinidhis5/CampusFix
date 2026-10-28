@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Submit complaint</h1>
+{% if duplicates %}
+<div class="alert alert-warning">
+  <strong>Possible duplicates found:</strong>
+  {% for c in duplicates %}<a href="{{ url_for('reporter.complaint_detail', complaint_id=c.id) }}">{{ c.reference_number }}</a> {% endfor %}
+</div>
+{% endif %}
+<form method="post" enctype="multipart/form-data" class="card card-body">
+  {{ form.hidden_tag() }}
+  {% if duplicates %}<input type="hidden" name="confirm_duplicate" value="yes">{% endif %}
+  <div id="aiSuggestion" class="ai-suggestion mb-3" data-predict-url="{{ url_for('ml.predict') }}">
+    <div class="d-flex flex-wrap align-items-center gap-2">
+      <strong>AI suggestion</strong>
+      <span class="text-muted">Please check before submitting.</span>
+    </div>
+    <div class="ai-suggestion-grid mt-2">
+      <span>Category: <span id="categoryConfidence" class="confidence-badge">Waiting for text</span></span>
+      <span>Priority: <span id="priorityConfidence" class="confidence-badge">Waiting for text</span></span>
+    </div>
+    <p id="aiSuggestionMessage" class="small text-muted mb-0 mt-2">Type at least 15 characters to get a suggestion.</p>
+  </div>
+  {% include "_form_fields.html" %}
+  {% if duplicates %}<a class="btn btn-outline-secondary mt-2" href="{{ url_for('reporter.dashboard') }}">Cancel</a>{% endif %}
+</form>
+{% endblock %}

@@ -1,0 +1,13 @@
+                      precision    recall  f1-score   support
+
+          Electrical     0.0000    0.0000    0.0000        51
+            Plumbing     0.3514    0.9286    0.5098        42
+             Network     1.0000    1.0000    1.0000        39
+           Furniture     0.0000    0.0000    0.0000        40
+          Sanitation     0.4819    1.0000    0.6504        40
+Laboratory Equipment     1.0000    0.7879    0.8814        33
+               Other     0.0000    0.0000    0.0000        21
+
+            accuracy                         0.5414       266
+           macro avg     0.4048    0.5309    0.4345       266
+        weighted avg     0.3986    0.5414    0.4343       266

@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Login</h1>
+<div class="card card-body form-narrow mb-3">
+  <h2>Quick demo access</h2>
+  <p class="text-muted">Use the app without entering an email or password.</p>
+  <div class="demo-login-actions">
+    <form method="post" action="{{ url_for('auth.demo_login', role='reporter') }}">
+      <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+      <button class="btn btn-primary" type="submit">Start as Student</button>
+    </form>
+    <form method="post" action="{{ url_for('auth.demo_login', role='admin') }}">
+      <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+      <button class="btn btn-outline-primary" type="submit">Admin View</button>
+    </form>
+    <form method="post" action="{{ url_for('auth.demo_login', role='maintenance') }}">
+      <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+      <button class="btn btn-outline-primary" type="submit">Maintenance View</button>
+    </form>
+  </div>
+</div>
+<form method="post" class="card card-body form-narrow">
+  <h2>Account login</h2>
+  {{ form.hidden_tag() }}
+  {% include "_form_fields.html" %}
+</form>
+{% endblock %}

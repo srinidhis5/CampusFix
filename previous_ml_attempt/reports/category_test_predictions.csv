@@ -1,0 +1,263 @@
+source_row,complaint_text,actual,predicted
+170,Notice board damaged near admin office The board is loose and needs fixing.,Other,Other
+1329,Garbage not cleared near main auditorium Waste has not been collected since yesterday. please,Sanitation,Sanitation
+814,Need help - Router offline near Block B corridor The router lights are off and there is no connection.,Network,Network
+25,ISSUE: DESK DRAWER STUCK IN MECHANICAL WORKSHOP The drawer is jammed and needs repair. asap,Furniture,Furniture
+698,maintenance req: Cupboard door loose in Block B corridor The cupboard door hinge is coming off. please,Furniture,Furniture
+739,Cupboard door loose in seminar hall The cupboard door hinge is coming off. today,Furniture,Furniture
+221,urgent: Water leaking near Block A Room 101 Water is dripping continuously and the floor is getting wet.!!!,Plumbing,Plumbing
+785,Slow internet in CSE lab The network is very slow during lab hours. please,Network,Network
+123,pls check Toilet flush not working in library first floor The flush is not working properly. today,Plumbing,Plumbing
+277,Need help - LAN port down in admin office The wired internet connection is not working. today,Network,Network
+1300,urgent: Burning smell from wiring in library first floor A burning smell is coming from the electrical panel.!!!,Electrical,Electrical
+654,Desk drawer stuck in mechanical workshop The drawer is jammed and needs repair. today,Furniture,Furniture
+1437,Need help - WiFi not available in CSE lab The signal drops often and students cannot access online resources.,Network,Network
+950,Tap broken in Block A Room 101 The tap handle is loose and water is being wasted. - reported by class rep,Plumbing,Plumbing
+588,urgent: Slow internet in seminar hall The network is very slow during lab hours. - reported by class rep,Network,Network
+576,pls check Lab computer not starting in library first floor The system does not boot. today,Laboratory Equipment,Laboratory Equipment
+49,issue: Garbage not cleared near cafeteria entrance Waste has not been collected since yesterday. please,Sanitation,Sanitation
+513,Need help - Water stagnation near main auditorium Dirty water is standing in the corridor.,Sanitation,Sanitation
+441,Microscope lens damaged in main auditorium The microscope lens is scratched and unclear. - reported by class rep,Laboratory Equipment,Laboratory Equipment
+207,Need help - Oscilloscope display issue in Block B corridor The screen is flickering during experiments. please,Laboratory Equipment,Laboratory Equipment
+1099,Classroom bench damaged in chemistry lab The bench surface is cracked.!!!,Furniture,Furniture
+73,Power socket not working in mechanical workshop Students cannot use the socket near the desk. asap,Electrical,Electrical
+1450,LAN port down in main auditorium The wired internet connection is not working.!!!,Network,Network
+1068,maintenance req: General maintenance request for CSE lab The area needs inspection by the maintenance team.,Other,Other
+769,pls check Slow internet in sports complex The network is very slow during lab hours.,Network,Network
+1374,Lab computer not starting in Block B corridor The system does not boot.,Laboratory Equipment,Laboratory Equipment
+807,urgent: Classroom bench damaged in CSE lab The bench surface is cracked.,Furniture,Furniture
+375,Need help - Oscilloscope display issue in sports complex The screen is flickering during experiments. please,Laboratory Equipment,Laboratory Equipment
+549,General maintenance request for seminar hall The area needs inspection by the maintenance team. today,Other,Other
+540,issue: Access issue near hostel washroom The entry point is difficult to use and needs checking.,Other,Other
+1398,maintenance req: Lost key issue in admin office The room key is missing and access is blocked.!!!,Other,Other
+808,Washroom needs cleaning in main auditorium The washroom has bad smell and requires cleaning. asap,Sanitation,Sanitation
+663,Fan stopped working in chemistry lab The ceiling fan is not rotating and the room is getting uncomfortable. - reported by class rep,Electrical,Electrical
+1442,Need help - Slow internet in Block A Room 101 The network is very slow during lab hours. today,Network,Network
+67,pls check Oscilloscope display issue in admin office The screen is flickering during experiments. - reported by class rep,Laboratory Equipment,Laboratory Equipment
+1152,pls check Sparking switch near cafeteria entrance There are small sparks from the switch board and it feels unsafe.,Electrical,Electrical
+1408,Power socket not working in CSE lab Students cannot use the socket near the desk.!!!,Electrical,Electrical
+472,MAINTENANCE REQ: PROJECTOR NOT WORKING IN MECHANICAL WORKSHOP The projector does not turn on before lab session. - reported by class rep,Laboratory Equipment,Laboratory Equipment
+734,Water stagnation near chemistry lab Dirty water is standing in the corridor. - reported by class rep,Sanitation,Sanitation
+1315,MAINTENANCE REQ: PIPE BURST NEAR CAFETERIA ENTRANCE Water is flowing heavily from a broken pipe.,Plumbing,Plumbing
+778,Power socket not working in Block B corridor Students cannot use the socket near the desk. asap,Electrical,Electrical
+271,Need help - Cupboard door loose in admin office The cupboard door hinge is coming off.!!!,Furniture,Furniture
+238,pls check Door name plate missing in main auditorium The room label needs replacement. - reported by class rep,Other,Other
+290,maintenance req: Desk drawer stuck in Block B corridor The drawer is jammed and needs repair.!!!,Furniture,Furniture
+1391,pls check Notice board damaged near main auditorium The board is loose and needs fixing. asap,Other,Other
+1455,pls check Slow internet in Block B corridor The network is very slow during lab hours. please,Network,Network
+237,maintenance req: Classroom bench damaged in chemistry lab The bench surface is cracked. asap,Furniture,Furniture
+1129,issue: Broken chair in Block A Room 101 The chair leg is damaged and cannot be used safely.!!!,Furniture,Furniture
+374,Router offline near Block B corridor The router lights are off and there is no conection.!!!,Network,Network
+184,issue: Slow internet in library first floor The network is very slow during lab hours.,Network,Network
+113,Need help - Sparking switch near main auditorium There are small sparks from the switch board and it feels unsafe.!!!,Electrical,Electrical
+777,issue: Broken chair in main auditorium The chair leg is damaged and cannot be used safely.,Furniture,Furniture
+1470,Trash overflowing near sports complex The bin is full and waste is spilling outside. - reported by class rep,Sanitation,Sanitation
+1407,MAINTENANCE REQ: CUPBOARD DOOR LOOSE IN CSE LAB The cupboard door hinge is coming off.,Furniture,Furniture
+407,Need help - WiFi not available in Block B corridor The signal drops often and students cannot access online resources. asap,Network,Network
+883,urgent: Lost key issue in Block B corridor The room key is missing and access is blocked. - reported by class rep,Other,Other
+1432,Need help - Power socket not working in seminar hall Students cannot use the socket near the desk. today,Electrical,Electrical
+1176,urgent: Slow internet in chemistry lab The network is very slow during lab hours. asap,Network,Network
+1326,Need help - Tube light flickering in main auditorium The light keeps flickering during class and needs checking.,Electrical,Electrical
+790,Door name plate missing in seminar hall The room label needs replacement.!!!,Other,Other
+339,maintenance req: Projector not working in sports complex The projector does not turn on before lab session. please,Laboratory Equipment,Laboratory Equipment
+1295,pls check Tap broken in seminar hall The tap handle is loose and water is being wasted.,Plumbing,Plumbing
+707,ISSUE: WATER STAGNATION NEAR CAFETERIA ENTRANCE Dirty water is standing in the corridor.,Sanitation,Sanitation
+1440,issue: Power socket not working in seminar hall Students cannot use the socket near the desk.,Electrical,Electrical
+1117,issue: WiFi not available in Block B corridor The signal drops often and students cannot access online resources. - reported by class rep,Network,Network
+434,urgent: Fan stopped working in chemistry lab The ceiling fan is not rotating and the room is getting uncomfortable. today,Electrical,Electrical
+1096,pls check Power socket not working in CSE lab Students cannot use the socket near the desk. please,Electrical,Electrical
+816,maintenance req: Classroom bench damaged in cafeteria entrance The bench surface is cracked. asap,Furniture,Furniture
+183,pls check Sparking switch near Block B corridor There are small sparks from the switch board and it feels unsafe. - reported by class rep,Electrical,Electrical
+398,Door name plate missing in library first floor The room label needs replacement.!!!,Other,Other
+1271,urgent: Router offline near Block B corridor The router lights are off and there is no connection. today,Network,Network
+961,Window latch broken in cafeteria entrance The latch does not close properly.,Furniture,Furniture
+932,Need help - Fan stopped working in main auditorium The ceiling fan is not rotating and the room is getting uncomfortable. today,Electrical,Electrical
+833,Need help - Drain blocked in cafeteria entrance The drain is clogged and water is collecting.,Plumbing,Plumbing
+1133,NEED HELP - PIPE BURST NEAR HOSTEL WASHROOM Water is flowing heavily from a broken pipe. today,Plumbing,Plumbing
+386,issue: Sparking switch near CSE lab There are small sparks from the switch board and it feels unsafe. asap,Electrical,Electrical
+99,Drain blocked in chemistry lab The drain is clogged and water is collecting. today,Plumbing,Plumbing
+204,issue: Window latch broken in hostel washroom The latch does not close properly. please,Furniture,Furniture
+477,Broken chair in Block A Room 101 The chair leg is damaged and cannot be used safely. - reported by class rep,Furniture,Furniture
+282,Need help - Water stagnation near CSE lab Dirty water is standing in the corridor.,Sanitation,Sanitation
+155,issue: Sparking switch near cafeteria entrance There are small sparks from the switch board and it feels unsafe. - reported by class rep,Electrical,Electrical
+160,issue: WiFi not available in hostel washroom The signal drops often and students cannot access online resources.!!!,Network,Network
+443,urgent: Slow internet in hostel washroom The network is very slow during lab hours. today,Network,Network
+139,Tube light flickering in CSE lab The light keeps flickering during class and needs checking. please,Electrical,Electrical
+782,PLS CHECK MICROSCOPE LENS DAMAGED IN CSE LAB The microscope lens is scratched and unclear.,Laboratory Equipment,Laboratory Equipment
+1499,urgent: Tap broken in mechanical workshop The tap handle is loose and water is being wasted.,Plumbing,Plumbing
+188,Drain blocked in mechanical workshop The drain is clogged and water is collecting.,Plumbing,Plumbing
+482,issue: Classroom bench damaged in admin office The bench surface is cracked.!!!,Furniture,Furniture
+459,pls check Toilet flush not working in admin office The flush is not working properly. please,Plumbing,Plumbing
+689,maintenance req: Sanitation issue in cafeteria entrance The area is unhygienic and needs attention. please,Sanitation,Sanitation
+519,Access issue near cafeteria entrance The entry point is difficult to use and needs checking.,Other,Other
+662,urgent: Tube light flickering in cafeteria entrance The light keeps flickering during class and needs checking. please,Electrical,Electrical
+752,pls check Access issue near hostel washroom The entry point is difficult to use and needs checking. - reported by class rep,Other,Other
+845,Need help - Water leaking near seminar hall Water is dripping continuously and the floor is getting wet.,Plumbing,Plumbing
+544,urgent: General maintenance request for chemistry lab The area needs inspection by the maintenance team.,Other,Other
+7,urgent: Cupboard door loose in Block B corridor The cupboard door hinge is coming off. please,Furniture,Furniture
+978,Access issue near chemistry lab The entry point is difficult to use and needs checking.,Other,Other
+275,pls check Microscope lens damaged in chemistry lab The microscope lens is scratched and unclear. - reported by class rep,Laboratory Equipment,Laboratory Equipment
+581,Fan stopped working in mechanical workshop The ceiling fan is not rotating and the room is getting uncomfortable. - reported by class rep,Electrical,Electrical
+41,Slow internet in Block A Room 101 The network is very slow during lab hours. please,Network,Network
+331,maintenance req: Broken chair in sports complex The chair leg is damaged and cannot be used safely. asap,Furniture,Furniture
+1396,maintenance req: Drain blocked in cafeteria entrance The drain is clogged and water is collecting. asap,Plumbing,Plumbing
+1340,maintenance req: Network outage in CSE lab No systems are able to connect to the internet. asap,Network,Network
+292,urgent: Water leaking near cafeteria entrance Water is dripping continuously and the floor is getting wet.,Plumbing,Plumbing
+436,urgent: Equipment calibration needed in cafeteria entrance The lab equipment is giving inconsistent readings. today,Laboratory Equipment,Laboratory Equipment
+562,Door name plate missing in hostel washroom The room label needs replacement. - reported by class rep,Other,Other
+102,maintenance req: Access issue near Block A Room 101 The entry point is difficult to use and needs checking.,Other,Other
+550,urgent: Slow internet in Block B corridor The network is very slow during lab hours. today,Network,Network
+1217,Need help - Fan stopped working in admin office The ceiling fan is not rotating and the room is getting uncomfortable. please,Electrical,Electrical
+247,Projector not working in main auditorium The projector does not turn on before lab session. please,Laboratory Equipment,Laboratory Equipment
+767,Cupboard door loose in mechanical workshop The cupboard door hinge is coming off.!!!,Furniture,Furniture
+1422,Need help - Network outage in Block A Room 101 No systems are able to connect to the internet.,Network,Network
+159,Need help - Desk drawer stuck in admin office The drawer is jammed and needs repair.,Furniture,Furniture
+80,ISSUE: PIPE BURST NEAR CHEMISTRY LAB Water is flowing heavily from a broken pipe. please,Plumbing,Plumbing
+1102,Power socket not working in seminar hall Students cannot use the socket near the desk.,Electrical,Electrical
+1336,pls check Tap broken in hostel washroom The tap handle is loose and water is being wasted. - reported by class rep,Plumbing,Plumbing
+846,Drain blocked in sports complex The drain is clogged and water is collecting. today,Plumbing,Plumbing
+708,Network outage in seminar hall No systems are able to connect to the internet. - reported by class rep,Network,Network
+295,Garbage not cleared near Block A Room 101 Waste has not been collected since yesterday.!!!,Sanitation,Sanitation
+865,NEED HELP - PIPE BURST NEAR LIBRARY FIRST FLOOR Water is flowing heavily from a broken pipe. - reported by class rep,Plumbing,Plumbing
+1180,pls check Garbage not cleared near Block A Room 101 Waste has not been collected since yesterday. today,Sanitation,Sanitation
+1029,issue: Fan stopped working in Block A Room 101 The ceiling fan is not rotating and the room is getting uncomfortable. asap,Electrical,Electrical
+756,Need help - Oscilloscope display issue in chemistry lab The screen is flickering during experiments.!!!,Laboratory Equipment,Laboratory Equipment
+863,Pipe burst near seminar hall Water is flowing heavily from a broken pipe.!!!,Plumbing,Plumbing
+1376,issue: Classroom bench damaged in hostel washroom The bench surface is cracked.,Furniture,Furniture
+461,pls check Garbage not cleared near cafeteria entrance Waste has not been collected since yesterday. - reported by class rep,Sanitation,Sanitation
+895,pls check Washroom needs cleaning in Block A Room 101 The washroom has bad smell and requires cleaning. - reported by class rep,Sanitation,Sanitation
+538,urgent: LAN port down in seminar hall The wired internet connection is not working. today,Network,Network
+862,pls check Router offline near Block B corridor The router lights are off and there is no connection. asap,Network,Network
+1154,pls check Projector not working in CSE lab The projector does not turn on before lab session.,Laboratory Equipment,Laboratory Equipment
+1040,Lost key issue in Block B corridor The room key is missing and access is blocked. asap,Other,Other
+615,TOILET FLUSH NOT WORKING IN ADMIN OFFICE The flush is not working properly.,Plumbing,Plumbing
+851,pls check Projector not working in sports complex The projector does not turn on before lab session. today,Laboratory Equipment,Laboratory Equipment
+798,Fan stopped working in mechanical workshop The ceiling fan is not rotating and the room is getting uncomfortable. please,Electrical,Electrical
+1194,pls check Broken chair in sports complex The chair leg is damaged and cannot be used safely.,Furniture,Furniture
+1471,issue: WiFi not available in hostel washroom The signal drops often and students cannot access online resources. - reported by class rep,Network,Network
+984,Power socket not working in seminar hall Students cannot use the socket near the desk. please,Electrical,Electrical
+1427,urgent: Burning smell from wiring in CSE lab A burning smell is coming from the electrical panel. asap,Electrical,Electrical
+1399,issue: Burning smell from wiring in seminar hall A burning smell is coming from the electrical panel.!!!,Electrical,Electrical
+1425,maintenance req: Sanitation issue in hostel washroom The area is unhygienic and needs attention.!!!,Sanitation,Sanitation
+148,Need help - Equipment calibration needed in Block A Room 101 The lab equipment is giving inconsistent readings.,Laboratory Equipment,Laboratory Equipment
+542,issue: Trash overflowing near CSE lab The bin is full and waste is spilling outside.,Sanitation,Sanitation
+454,Water leaking near chemistry lab Water is dripping continuously and the floor is getting wet.,Plumbing,Plumbing
+105,pls check Trash overflowing near Block A Room 101 The bin is full and waste is spilling outside.,Sanitation,Sanitation
+646,issue: Power socket not working in Block A Room 101 Students cannot use the socket near the desk.,Electrical,Electrical
+1375,Burning smell from wiring in chemistry lab A burning smell is coming from the electrical panel.,Electrical,Electrical
+975,Desk drawer stuck in chemistry lab The drawer is jammed and needs repair. today,Furniture,Furniture
+1027,issue: Washroom needs cleaning in Block A Room 101 The washroom has bad smell and requires cleaning.,Sanitation,Sanitation
+1084,Network outage in Block B corridor No systems are able to connect to the internet.!!!,Network,Network
+224,Toilet flush not working in Block A Room 101 The flush is not working properly. today,Plumbing,Plumbing
+1060,maintenance req: Classroom bench damaged in mechanical workshop The bench surface is cracked. please,Furniture,Furniture
+30,urgent: Tube light flickering in seminar hall The light keeps flickering during class and needs checking. - reported by class rep,Electrical,Electrical
+1070,urgent: Washroom needs cleaning in sports complex The washroom has bad smell and requires cleaning. - reported by class rep,Sanitation,Sanitation
+405,Need help - Water leaking near Block B corridor Water is dripping continuously and the floor is getting wet.,Plumbing,Plumbing
+1282,Oscilloscope display issue in cafeteria entrance The screen is flickering during experiments.!!!,Laboratory Equipment,Laboratory Equipment
+480,WATER STAGNATION NEAR MECHANICAL WORKSHOP Dirty water is standing in the corridor. - reported by class rep,Sanitation,Sanitation
+1105,pls check Garbage not cleared near sports complex Waste has not been collected since yesterday.!!!,Sanitation,Sanitation
+810,WIFI NOT AVAILABLE IN MECHANICAL WORKSHOP The signal drops often and students cannot access online resources. today,Network,Network
+898,urgent: General maintenance request for sports complex The area needs inspection by the maintenance team.,Other,Other
+366,Need help - Sparking switch near library first floor There are small sparks from the switch board and it feels unsafe. asap,Electrical,Electrical
+198,issue: Water leaking near sports complex Water is dripping continuously and the floor is getting wet.,Plumbing,Plumbing
+156,Slow internet in seminar hall The network is very slow during lab hours. today,Network,Network
+1066,General maintenance request for cafeteria entrance The area needs inspection by the maintenance team.!!!,Other,Other
+768,Trash overflowing near cafeteria entrance The bin is full and waste is spilling outside.!!!,Sanitation,Sanitation
+1371,Desk drawer stuck in main auditorium The drawer is jammed and needs repair. please,Furniture,Furniture
+216,DRAIN BLOCKED IN BLOCK A ROOM 101 The drain is clogged and water is collecting.,Plumbing,Plumbing
+382,Classroom bench damaged in Block B corridor The bench surface is cracked.,Furniture,Furniture
+564,issue: Lab computer not starting in library first floor The system does not boot.!!!,Laboratory Equipment,Laboratory Equipment
+1298,Window latch broken in CSE lab The latch does not close properly. - reported by class rep,Furniture,Furniture
+52,issue: Microscope lens damaged in hostel washroom The microscope lens is scratched and unclear.,Laboratory Equipment,Laboratory Equipment
+1174,SLOW INTERNET IN MECHANICAL WORKSHOP The network is very slow during lab hours. today,Network,Network
+364,Water leaking near chemistry lab Water is dripping continuously and the floor is getting wet. asap,Plumbing,Plumbing
+1055,issue: Slow internet in sports complex The network is very slow during lab hours.,Network,Network
+164,urgent: Tube light flickering in CSE lab The light keeps flickering during class and needs checking. asap,Electrical,Electrical
+507,Burning smell from wiring in seminar hall A burning smell is coming from the electrical panel. today,Electrical,Electrical
+1042,maintenance req: Lost key issue in main auditorium The room key is missing and access is blocked.,Other,Other
+788,pls check Tube light flickering in chemistry lab The light keeps flickering during class and needs checking. asap,Electrical,Electrical
+738,maintenance req: Water leaking near cafeteria entrance Water is dripping continuously and the floor is getting wet. asap,Plumbing,Plumbing
+528,Window latch broken in cafeteria entrance The latch does not close properly. today,Furniture,Furniture
+1445,urgent: Water stagnation near seminar hall Dirty water is standing in the corridor. please,Sanitation,Sanitation
+1095,pls check Drain blocked in admin office The drain is clogged and water is collecting.,Plumbing,Plumbing
+1413,Drain blocked in hostel washroom The drain is clogged and water is collecting. please,Plumbing,Plumbing
+989,issue: Desk drawer stuck in admin office The drawer is jammed and needs repair. please,Furniture,Furniture
+1023,maintenance req: Equipment calibration needed in library first floor The lab equipment is giving inconsistent readings.,Laboratory Equipment,Laboratory Equipment
+66,ISSUE: TRASH OVERFLOWING NEAR CHEMISTRY LAB The bin is full and waste is spilling outside. - reported by class rep,Sanitation,Sanitation
+996,Washroom needs cleaning in Block B corridor The washroom has bad smell and requires cleaning.,Sanitation,Sanitation
+225,Network outage in Block A Room 101 No systems are able to connect to the internet.!!!,Network,Network
+343,urgent: Lab computer not starting in CSE lab The system does not boot.,Laboratory Equipment,Laboratory Equipment
+955,maintenance req: Microscope lens damaged in seminar hall The microscope lens is scratched and unclear.!!!,Laboratory Equipment,Laboratory Equipment
+350,issue: Microscope lens damaged in Block B corridor The microscope lens is scratched and unclear. please,Laboratory Equipment,Laboratory Equipment
+32,Fan stopped working in Block A Room 101 The ceiling fan is not rotating and the room is getting uncomfortable. - reported by class rep,Electrical,Electrical
+8,pls check Toilet flush not working in Block B corridor The flush is not working properly.,Plumbing,Plumbing
+402,Water leaking near sports complex Water is dripping continuously and the floor is getting wet.,Plumbing,Plumbing
+620,issue: Sanitation issue in Block A Room 101 The area is unhygienic and needs attention.,Sanitation,Sanitation
+1065,maintenance req: Water stagnation near library first floor Dirty water is standing in the corridor.!!!,Sanitation,Sanitation
+15,urgent: Router offline near admin office The router lights are off and there is no conection.,Network,Network
+971,maintenance req: Washroom needs cleaning in Block A Room 101 The washroom has bad smell and requires cleaning.,Sanitation,Sanitation
+583,issue: LAN port down in CSE lab The wired internet conection is not wrkng.!!!,Network,Network
+987,pls check Burning smell from wiring in chemistry lab A burning smell is coming from the electrical panel. today,Electrical,Electrical
+1119,urgent: LAN port down in admin office The wired internet connection is not working.,Network,Network
+568,URGENT: TOILET FLUSH NOT WORKING IN ADMIN OFFICE The flush is not wrkng properly. please,Plumbing,Plumbing
+481,Network outage in mechanical workshop No systems are able to connect to the internet.,Network,Network
+1430,Need help - LAN port down in CSE lab The wired internet connection is not working.,Network,Network
+1420,NEED HELP - TOILET FLUSH NOT WORKING IN LIBRARY FIRST FLOOR The flush is not working properly. today,Plumbing,Plumbing
+675,Need help - Lab computer not starting in chemistry lab The system does not boot.,Laboratory Equipment,Laboratory Equipment
+991,pls check Broken chair in library first floor The chair leg is damaged and cannot be used safely. asap,Furniture,Furniture
+178,POWER SOCKET NOT WORKING IN SPORTS COMPLEX Students cannot use the socket near the desk. - reported by class rep,Electrical,Electrical
+24,maintenance req: Power socket not working in main auditorium Students cannot use the socket near the desk. asap,Electrical,Electrical
+122,Classroom bench damaged in Block A Room 101 The bench surface is cracked. - reported by class rep,Furniture,Furniture
+169,Pipe burst near admin office Water is flowing heavily from a broken pipe.,Plumbing,Plumbing
+197,Water stagnation near hostel washroom Dirty water is standing in the corridor. - reported by class rep,Sanitation,Sanitation
+944,urgent: Pipe burst near hostel washroom Water is flowing heavily from a broken pipe.!!!,Plumbing,Plumbing
+250,issue: Washroom needs cleaning in chemistry lab The washroom has bad smell and requires cleaning.!!!,Sanitation,Sanitation
+1192,issue: Slow internet in seminar hall The network is very slow during lab hours.,Network,Network
+917,Garbage not cleared near hostel washroom Waste has not been collected since yesterday. today,Sanitation,Sanitation
+69,Equipment calibration needed in chemistry lab The lab equipment is giving inconsistent readings.,Laboratory Equipment,Laboratory Equipment
+4,issue: Power socket not working in sports complex Students cannot use the socket near the desk. asap,Electrical,Electrical
+378,pls check Sanitation issue in Block A Room 101 The area is unhygienic and needs attention. please,Sanitation,Sanitation
+947,Lab computer not starting in admin office The system does not boot. asap,Laboratory Equipment,Laboratory Equipment
+1075,maintenance req: Fan stopped working in library first floor The ceiling fan is not rotating and the room is getting uncomfortable. - reported by class rep,Electrical,Electrical
+127,maintenance req: Toilet flush not working in Block B corridor The flush is not working properly.,Plumbing,Plumbing
+579,urgent: Oscilloscope display issue in admin office The screen is flickering during experiments. please,Laboratory Equipment,Laboratory Equipment
+530,Burning smell from wiring in main auditorium A burning smell is coming from the electrical panel. please,Electrical,Electrical
+1428,urgent: Trash overflowing near Block B corridor The bin is full and waste is spilling outside.,Sanitation,Sanitation
+602,issue: Water leaking near cafeteria entrance Water is dripping continuously and the floor is getting wet. asap,Plumbing,Plumbing
+16,urgent: Garbage not cleared near Block B corridor Waste has not been collected since yesterday.!!!,Sanitation,Sanitation
+300,Trash overflowing near CSE lab The bin is full and waste is spilling outside.,Sanitation,Sanitation
+1464,Need help - Cupboard door loose in Block A Room 101 The cupboard door hinge is coming off. asap,Furniture,Furniture
+1273,Need help - Sparking switch near sports complex There are small sparks from the switch board and it feels unsafe. please,Electrical,Electrical
+572,issue: Classroom bench damaged in chemistry lab The bench surface is cracked. today,Furniture,Furniture
+419,Need help - Router offline near admin office The router lights are off and there is no connection. today,Network,Network
+511,maintenance req: Power socket not working in hostel washroom Students cannot use the socket near the desk. - reported by class rep,Electrical,Electrical
+320,Cupboard door loose in seminar hall The cupboard door hinge is coming off. asap,Furniture,Furniture
+388,URGENT: CLASSROOM BENCH DAMAGED IN SEMINAR HALL The bench surface is cracked.,Furniture,Furniture
+1378,PLS CHECK TOILET FLUSH NOT WORKING IN SPORTS COMPLEX The flush is not working properly.!!!,Plumbing,Plumbing
+1171,Water stagnation near hostel washroom Dirty water is standing in the corridor.,Sanitation,Sanitation
+893,issue: Sparking switch near mechanical workshop There are small sparks from the switch board and it feels unsafe. - reported by class rep,Electrical,Electrical
+1044,WiFi not available in main auditorium The signal drops often and students cannot access online resources.,Network,Network
+306,Need help - Lost key issue in main auditorium The room key is missing and access is blocked. asap,Other,Other
+651,issue: Fan stopped working in mechanical workshop The ceiling fan is not rotating and the room is getting uncomfortable. today,Electrical,Electrical
+1223,MAINTENANCE REQ: NOTICE BOARD DAMAGED NEAR BLOCK B CORRIDOR The board is loose and needs fixing.,Other,Other
+509,maintenance req: Burning smell from wiring in Block A Room 101 A burning smell is coming from the electrical panel.,Electrical,Electrical
+323,Pipe burst near chemistry lab Water is flowing heavily from a broken pipe. today,Plumbing,Plumbing
+1451,WiFi not available in seminar hall The signal drops often and students cannot access online resources. today,Network,Network
+120,urgent: Cupboard door loose in sports complex The cupboard door hinge is coming off. - reported by class rep,Furniture,Furniture
+603,NEED HELP - CLASSROOM BENCH DAMAGED IN SEMINAR HALL The bench surface is cracked.,Furniture,Furniture
+202,maintenance req: Burning smell from wiring in cafeteria entrance A burning smell is coming from the electrical panel.,Electrical,Electrical
+827,Need help - Drain blocked in seminar hall The drain is clogged and water is collecting. today,Plumbing,Plumbing
+1111,Garbage not cleared near library first floor Waste has not been collected since yesterday. - reported by class rep,Sanitation,Sanitation
+1415,pls check Lost key issue in Block A Room 101 The room key is missing and access is blocked. please,Other,Other
+754,issue: Classroom bench damaged in library first floor The bench surface is cracked. today,Furniture,Furniture
+1138,Need help - Slow internet in admin office The network is very slow during lab hours. please,Network,Network
+132,maintenance req: Microscope lens damaged in seminar hall The microscope lens is scratched and unclear. please,Laboratory Equipment,Laboratory Equipment
+931,issue: WiFi not available in chemistry lab The signal drops often and students cannot access online resources.,Network,Network
+312,pls check Broken chair in Block B corridor The chair leg is damaged and cannot be used safely. please,Furniture,Furniture
+471,urgent: LAN port down in hostel washroom The wired internet connection is not working.,Network,Network
+33,Notice board damaged near CSE lab The board is loose and needs fixing.,Other,Other
+421,Trash overflowing near Block B corridor The bin is full and waste is spilling outside. today,Sanitation,Sanitation
+586,Need help - Water stagnation near library first floor Dirty water is standing in the corridor.,Sanitation,Sanitation
+1341,maintenance req: Fan stopped working in admin office The ceiling fan is not rotating and the room is getting uncomfortable.,Electrical,Electrical
+45,Equipment calibration needed in sports complex The lab equipment is giving inconsistent readings. asap,Laboratory Equipment,Laboratory Equipment
+557,General maintenance request for chemistry lab The area needs inspection by the maintenance team.,Other,Other

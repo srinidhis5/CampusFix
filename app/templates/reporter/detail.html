@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+{% include "_complaint_detail.html" %}
+{% if complaint.status == 'Resolved' %}
+<form method="post" class="d-inline"><input type="hidden" name="csrf_token" value="{{ csrf_token() }}"><input type="hidden" name="action" value="close"><button class="btn btn-success" onclick="return confirm('Close this complaint?')">Close</button></form>
+{% if complaint.reopen_count < 1 %}<form method="post" class="d-inline"><input type="hidden" name="csrf_token" value="{{ csrf_token() }}"><input type="hidden" name="action" value="reopen"><button class="btn btn-warning" onclick="return confirm('Reopen this complaint?')">Reopen</button></form>{% endif %}
+{% endif %}
+{% if complaint.status in ['Resolved','Closed'] and not complaint.feedback %}<a class="btn btn-primary" href="{{ url_for('reporter.feedback', complaint_id=complaint.id) }}">Add feedback</a>{% endif %}
+{% if complaint.feedback %}<div class="alert alert-info mt-3">Your rating: {{ complaint.feedback.rating }} / 5. {{ complaint.feedback.comment }}</div>{% endif %}
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Notifications</h1>
+{% for n in notifications %}
+<div class="card mb-2 {{ '' if n.is_read else 'border-primary' }}"><div class="card-body">
+  <h5>{{ n.title }}</h5><p>{{ n.message }}</p>
+  {% if n.related_complaint_id %}<a href="/{{ current_user.role if current_user.role != 'maintenance' else 'maintenance' }}/complaints/{{ n.related_complaint_id }}" class="btn btn-sm btn-outline-primary">Open complaint</a>{% endif %}
+  {% if not n.is_read %}
+  <form method="post" action="{{ request.path }}/{{ n.id }}/read" class="d-inline"><input type="hidden" name="csrf_token" value="{{ csrf_token() }}"><button class="btn btn-sm btn-primary">Mark read</button></form>
+  {% endif %}
+</div></div>
+{% else %}<p class="empty">No notifications.</p>{% endfor %}
+{% endblock %}

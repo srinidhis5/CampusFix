@@ -1,0 +1,8 @@
+True label,Electrical,Plumbing,Network,Furniture,Sanitation,Laboratory Equipment,Other
+Electrical,0,51,0,0,0,0,0
+Plumbing,0,39,0,0,3,0,0
+Network,0,0,39,0,0,0,0
+Furniture,0,0,0,0,40,0,0
+Sanitation,0,0,0,0,40,0,0
+Laboratory Equipment,0,0,0,7,0,26,0
+Other,0,21,0,0,0,0,0

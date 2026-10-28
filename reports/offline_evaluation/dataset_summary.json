@@ -1,0 +1,176 @@
+{
+  "dataset_file": "data\\complaints.csv",
+  "dataset_sha256": "a4684e61cdf16d9608a2a7affbb97ec4fc29bea749732265e1ace61aac28a791",
+  "source": {
+    "dataset": "CampusFix synthetic campus maintenance complaints",
+    "file": "data/complaints.csv",
+    "source": "Local template generator src/generate_dataset.py, build_rows(total=1500), seed 42",
+    "synthetic": true,
+    "synthetic_rows": "All rows; no real student complaints or external dataset",
+    "category_labelling": "Category inherited from the generator scenario template",
+    "priority_labelling": "Generator priority_for uses keywords and seeded random weighted choices; priorities are not human-verified severity judgements",
+    "limitations": "Template/location variants share wording; random priority labels introduce ambiguity. Benchmarks demonstrate training and integration, not real-world performance."
+  },
+  "labels": {
+    "category": [
+      "Electrical",
+      "Plumbing",
+      "Network",
+      "Furniture",
+      "Sanitation",
+      "Laboratory Equipment",
+      "Other"
+    ],
+    "priority": [
+      "Low",
+      "Medium",
+      "High",
+      "Emergency"
+    ]
+  },
+  "total_rows": 1500,
+  "raw_class_counts": {
+    "category": {
+      "Electrical": 290,
+      "Furniture": 212,
+      "Laboratory Equipment": 152,
+      "Network": 250,
+      "Other": 136,
+      "Plumbing": 231,
+      "Sanitation": 229
+    },
+    "priority": {
+      "Emergency": 139,
+      "High": 420,
+      "Low": 366,
+      "Medium": 575
+    }
+  },
+  "cleaning": {
+    "missing_text_rows": 0,
+    "missing_label_rows": 0,
+    "invalid_label_rows": 0,
+    "invalid_label_values": {
+      "category": {},
+      "priority": {}
+    },
+    "invalid_or_missing_rows_removed": 0,
+    "exact_raw_duplicate_text_rows": 51,
+    "normalized_duplicate_text_rows_before_cleaning": 114,
+    "conflicting_normalized_text_groups": 80,
+    "conflicting_rows_removed": 169,
+    "remaining_normalized_duplicate_rows_removed": 25
+  },
+  "usable_rows": 1306,
+  "cleaned_class_counts": {
+    "category": {
+      "Electrical": 232,
+      "Furniture": 200,
+      "Laboratory Equipment": 142,
+      "Network": 214,
+      "Other": 124,
+      "Plumbing": 202,
+      "Sanitation": 192
+    },
+    "priority": {
+      "Emergency": 117,
+      "High": 363,
+      "Low": 319,
+      "Medium": 507
+    }
+  },
+  "near_duplicate_groups": 35,
+  "near_duplicate_groups_with_multiple_labels": {
+    "category": 0,
+    "priority": 35
+  },
+  "grouping_method": "Source-metadata location/boilerplate removal and documented typo normalization; connected components of canonical word-bigram Jaccard similarity >=0.80. Labels are never used for grouping.",
+  "grouping_limitations": "Heuristic grouping cannot guarantee detection of every semantic paraphrase. Cleaning/grouping are label-audit and partition operations; model TF-IDF is fitted only on training folds.",
+  "limitations": [
+    "Existing dataset is entirely synthetic, generated from 35 scenario templates; no new examples were generated for this experiment.",
+    "Priorities were assigned using keyword-conditioned random choices, not human-verified severity annotations.",
+    "Conflicting exact inputs are removed as complete groups; this changes the evaluated population.",
+    "Near-duplicate/template groups are held together in both holdout and CV; performance concerns unseen scenarios, not independent real-world complaints.",
+    "Few independent templates per class make estimates unstable; sample counts overstate independent evidence.",
+    "No real-campus generalization or emergency reliability claim is supported."
+  ],
+  "split": {
+    "seed": 42,
+    "train_rows": 1040,
+    "test_rows": 266,
+    "test_fraction": 0.20367534456355282,
+    "train_groups": 28,
+    "test_groups": 7,
+    "train_class_counts": {
+      "category": {
+        "Electrical": 181,
+        "Furniture": 160,
+        "Laboratory Equipment": 109,
+        "Network": 175,
+        "Other": 103,
+        "Plumbing": 160,
+        "Sanitation": 152
+      },
+      "priority": {
+        "Emergency": 92,
+        "High": 289,
+        "Low": 251,
+        "Medium": 408
+      }
+    },
+    "test_class_counts": {
+      "category": {
+        "Electrical": 51,
+        "Furniture": 40,
+        "Laboratory Equipment": 33,
+        "Network": 39,
+        "Other": 21,
+        "Plumbing": 42,
+        "Sanitation": 40
+      },
+      "priority": {
+        "Emergency": 25,
+        "High": 74,
+        "Low": 68,
+        "Medium": 99
+      }
+    },
+    "train_class_group_counts": {
+      "category": {
+        "Electrical": 4,
+        "Furniture": 4,
+        "Laboratory Equipment": 4,
+        "Network": 4,
+        "Other": 4,
+        "Plumbing": 4,
+        "Sanitation": 4
+      },
+      "priority": {
+        "Emergency": 3,
+        "High": 28,
+        "Low": 25,
+        "Medium": 25
+      }
+    },
+    "test_class_group_counts": {
+      "category": {
+        "Electrical": 1,
+        "Furniture": 1,
+        "Laboratory Equipment": 1,
+        "Network": 1,
+        "Other": 1,
+        "Plumbing": 1,
+        "Sanitation": 1
+      },
+      "priority": {
+        "Emergency": 1,
+        "High": 7,
+        "Low": 6,
+        "Medium": 6
+      }
+    },
+    "method": "3000 seed-42 GroupShuffleSplit candidates; minimize 5*test-fraction deviation + mean marginal class-distribution deviations. Require every class in both partitions and >=3 training groups per class. No model scores used.",
+    "train_test_group_overlap": 0
+  },
+  "class_coverage": "All supported classes are present in training, test and every CV training/validation fold. Template-group counts, not row counts, limit evidence."
+}

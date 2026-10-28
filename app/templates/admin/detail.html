@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+{% include "_complaint_detail.html" %}
+<a class="btn btn-primary" href="{{ url_for('admin.assign', complaint_id=complaint.id) }}">Assign or reassign</a>
+<form method="post" class="d-inline"><input type="hidden" name="csrf_token" value="{{ csrf_token() }}"><input name="action" value="progress" type="hidden"><button class="btn btn-outline-primary">Move to In Progress</button></form>
+<form method="post" class="d-inline"><input type="hidden" name="csrf_token" value="{{ csrf_token() }}"><input name="action" value="resolve" type="hidden"><button class="btn btn-outline-success">Resolve</button></form>
+<form method="post" class="d-inline"><input type="hidden" name="csrf_token" value="{{ csrf_token() }}"><input name="action" value="close" type="hidden"><button class="btn btn-success">Close</button></form>
+<form method="post" class="d-inline"><input type="hidden" name="csrf_token" value="{{ csrf_token() }}"><input name="action" value="reopen" type="hidden"><button class="btn btn-warning">Reopen</button></form>
+<h3 class="mt-4">Change priority</h3>
+<form method="post" class="card card-body form-narrow">
+  {{ priority_form.hidden_tag() }}<input type="hidden" name="form_name" value="priority">
+  {% set form = priority_form %}
+  {% include "_form_fields.html" with context %}
+</form>
+{% endblock %}

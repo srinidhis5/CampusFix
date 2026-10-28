@@ -1,0 +1,31 @@
+<div class="card mb-3"><div class="card-body">
+  <h2>{{ complaint.reference_number }} - {{ complaint.title }}</h2>
+  <p>{{ complaint.description }}</p>
+  <dl class="row">
+    <dt class="col-sm-3">Status</dt><dd class="col-sm-9">{{ complaint.status }}</dd>
+    <dt class="col-sm-3">Priority</dt><dd class="col-sm-9">{{ complaint.priority }}</dd>
+    <dt class="col-sm-3">Category</dt><dd class="col-sm-9">{{ complaint.category }}</dd>
+    <dt class="col-sm-3">Location</dt><dd class="col-sm-9">{{ complaint.building }} / {{ complaint.room_location }}</dd>
+    <dt class="col-sm-3">Reporter</dt><dd class="col-sm-9">{{ complaint.reporter.full_name }}</dd>
+    <dt class="col-sm-3">Assignee</dt><dd class="col-sm-9">{{ complaint.assignee.full_name if complaint.assignee else 'Unassigned' }}</dd>
+    <dt class="col-sm-3">Due</dt><dd class="col-sm-9">{{ complaint.due_at.strftime('%Y-%m-%d %H:%M') }} {% if complaint.is_overdue %}<span class="badge bg-danger">Overdue</span>{% endif %}</dd>
+  </dl>
+  {% if complaint.prediction_log %}
+  <div class="prediction-summary">
+    <strong>AI suggestion record</strong>
+    <div>Category: {{ complaint.prediction_log.predicted_category or 'Manual choice' }} -> {{ complaint.prediction_log.final_category }}</div>
+    <div>Priority: {{ complaint.prediction_log.predicted_priority or 'Manual choice' }} -> {{ complaint.prediction_log.final_priority }}</div>
+    <div>{{ 'User corrected the suggestion' if complaint.prediction_log.was_corrected else 'Suggestion matched the submitted labels' }}</div>
+  </div>
+  {% endif %}
+  {% if complaint.image_filename %}<a href="{{ url_for('static', filename='uploads/' + complaint.image_filename) }}">View complaint photo</a>{% endif %}
+  {% if complaint.completion_image_filename %}<br><a href="{{ url_for('static', filename='uploads/' + complaint.completion_image_filename) }}">View completion proof</a>{% endif %}
+</div></div>
+<h3>History</h3>
+{% for u in complaint.updates %}
+<div class="border-start border-primary ps-3 mb-3">
+  <strong>{{ u.old_status or 'New' }} to {{ u.new_status }}</strong>
+  <div class="small text-muted">{{ u.actor.full_name }} at {{ u.created_at.strftime('%Y-%m-%d %H:%M') }}</div>
+  <p>{{ u.note or '' }}</p>
+</div>
+{% else %}<p class="empty">No updates yet.</p>{% endfor %}

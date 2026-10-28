@@ -1,0 +1,10 @@
+{
+  "dataset": "CampusFix synthetic campus maintenance complaints",
+  "file": "data/complaints.csv",
+  "source": "Local template generator src/generate_dataset.py, build_rows(total=1500), seed 42",
+  "synthetic": true,
+  "synthetic_rows": "All rows; no real student complaints or external dataset",
+  "category_labelling": "Category inherited from the generator scenario template",
+  "priority_labelling": "Generator priority_for uses keywords and seeded random weighted choices; priorities are not human-verified severity judgements",
+  "limitations": "Template/location variants share wording; random priority labels introduce ambiguity. Benchmarks demonstrate training and integration, not real-world performance."
+}
